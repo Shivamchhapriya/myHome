@@ -1,0 +1,14 @@
+# Ignore system files
+.DS_Store
+
+# Ignore Node.js related files and directories
+node_modules/
+npm-debug.log
+
+# Ignore log files
+*.log
+
+# Ignore compiled binaries and build artifacts
+bin/
+dist/
+*.exe
