@@ -2,7 +2,7 @@ function Navbar(params) {
   return(
     <>
       <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
   <div class="container-fluid">
     {/* <a class="navbar-brand" href="#">Navbar</a> */}
     <img src="/asset/logoMyHome.webp" width="120"/>
