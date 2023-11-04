@@ -3,50 +3,62 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import  './First.css'
 
-const MyCarousel = () => {
+const LatestTrends= () => {
     const responsive = {
         desktop: {
           breakpoint: { max: 3000, min: 800 },
-          items: 3,
-          slidesToSlide: 3// optional, default to 1.
+          items: 4,
+          slidesToSlide: 1// optional, default to 1.
         },
         tablet: {
           breakpoint: { max: 1024, min: 768 },
-          items: 3,
-          slidesToSlide: 3 // optional, default to 1.
+          items: 4,
+          slidesToSlide: 4 // optional, default to 1.
         },
         mobile: {
           breakpoint: { max: 767, min: 464 },
-          items: 1,
-          slidesToSlide: 1 // optional, default to 1.
+          items: 2,
+          slidesToSlide: 2  // optional, default to 1.
         }
       };
       const sliderImageUrl = [
         //First image url
         {
           url:
-            "https://www.makemyhouse.com/assets/themelibv3assets/images/web-images/card-1.jpg?version=210"
+            "https://www.makemyhouse.com/assets/themelibv2assets/app_assets/images/new/1000sqft.webp?version=210",
+            size:"950sqft - 11sqft"
         },
         {
           url:
-            "https://www.makemyhouse.com/assets/themelibv3assets/images/web-images/card-2.jpg?version=210"
+            "https://www.makemyhouse.com/assets/themelibv2assets/app_assets/images/new/1150sqft.webp?version=210",
+            size:"950sqft - 11sqft"
         },
         {
           url:
-            "https://www.makemyhouse.com/assets/themelibv3assets/images/web-images/card-3.jpg?version=210"
+            "https://www.makemyhouse.com/assets/themelibv2assets/app_assets/images/new/1350sqft.webp?version=210",
+            size:"950sqft - 11sqft"
         },
         {
           url:
-            "https://www.makemyhouse.com/assets/themelibv3assets/images/web-images/card-4.jpg?version=210"
+            "https://www.makemyhouse.com/assets/themelibv2assets/app_assets/images/new/1750sqft.webp?version=210",
+            size:"950sqft - 11sqft"
         },
         {
           url:
-            "https://www.makemyhouse.com/assets/themelibv3assets/images/web-images/card-5.jpg?version=210"
+            "https://www.makemyhouse.com/assets/themelibv2assets/app_assets/images/new/2BHK.webp?version=210",
+            size:"950sqft - 11sqft"
         },
         {
           url:
-            "https://www.makemyhouse.com/assets/themelibv3assets/images/web-images/card-6.jpg?version=210"
+            "	https://www.makemyhouse.com/assets/themelibv2assets/app_assets/images/new/6BHK.webp?version=210",
+            size:"950sqft - 11sqft"
         },
+        {
+          url:
+            "https://www.makemyhouse.com/assets/themelibv2assets/app_assets/images/new/6BHK.webp?version=210",
+            size:"950sqft - 11sqft"
+        },
+    
       ];
 
       const carouselRef = useRef(null);
@@ -55,7 +67,7 @@ const MyCarousel = () => {
           className="custom-button left-button"
           onClick={() => carouselRef.current.previous()}
         >
-                  <img src="	https://www.makemyhouse.com//assets/themelibv3assets/images/left-errow.png" alt="" />
+                  <img src="https://www.makemyhouse.com//assets/themelibv3assets/images/left-errow.png" alt="" />
 
         </button>
       );
@@ -94,14 +106,16 @@ const MyCarousel = () => {
       pauseOnHover
       partialVisible={false}
       rtl={false}
+      autoPlaySpeed={2000} 
       dotListClass="custom-dot-list-style"
-        customButtonGroup={<CustomButtonGroup />}
+        // customButtonGroup={<CustomButtonGroup />}
         ref={carouselRef}
     >
       {sliderImageUrl.map((imageUrl, index) => {
         return (
-          <div className="slider p-2 rounded-3" key={index}>
-            <img src={imageUrl.url} alt="movie" width={"100%"} className='rounded-3 border border-secondary'/>
+          <div className="slider p-2 rounded-3 justify-content-center" key={index}>
+            <img src={imageUrl.url} alt="movie" width={"100%"} height={"300px"} className='rounded-3 border border-secondary'/>
+            <center className='mt-3'><b>{imageUrl.size}</b></center>
           </div>
         );
       })}
@@ -110,4 +124,4 @@ const MyCarousel = () => {
   );
 };
 
-export default MyCarousel;
+export default LatestTrends;

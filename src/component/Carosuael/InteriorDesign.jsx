@@ -3,50 +3,57 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import  './First.css'
 
-const MyCarousel = () => {
+const InteriorDesign = () => {
     const responsive = {
         desktop: {
           breakpoint: { max: 3000, min: 800 },
-          items: 3,
-          slidesToSlide: 3// optional, default to 1.
+          items: 4,
+          slidesToSlide: 1// optional, default to 1.
         },
         tablet: {
           breakpoint: { max: 1024, min: 768 },
-          items: 3,
-          slidesToSlide: 3 // optional, default to 1.
+          items: 4,
+          slidesToSlide: 4 // optional, default to 1.
         },
         mobile: {
           breakpoint: { max: 767, min: 464 },
-          items: 1,
-          slidesToSlide: 1 // optional, default to 1.
+          items: 2,
+          slidesToSlide: 2  // optional, default to 1.
         }
       };
       const sliderImageUrl = [
         //First image url
         {
           url:
-            "https://www.makemyhouse.com/assets/themelibv3assets/images/web-images/card-1.jpg?version=210"
+            "https://www.makemyhouse.com/assets/themelibv2assets/app_assets/images/new/study.webp?version=210",
+            name:"Study Room"
         },
         {
           url:
-            "https://www.makemyhouse.com/assets/themelibv3assets/images/web-images/card-2.jpg?version=210"
+            "https://www.makemyhouse.com/assets/themelibv2assets/app_assets/images/new/bathroom1.webp?version=210",
+            name:"Bathroom"
         },
         {
           url:
-            "https://www.makemyhouse.com/assets/themelibv3assets/images/web-images/card-3.jpg?version=210"
+            "https://www.makemyhouse.com/assets/themelibv2assets/app_assets/images/new/kidsroom.webp?version=210",
+            name:"Kids Room"
         },
         {
           url:
-            "https://www.makemyhouse.com/assets/themelibv3assets/images/web-images/card-4.jpg?version=210"
+            "https://www.makemyhouse.com/assets/themelibv2assets/app_assets/images/new/kitchen.webp?version=210",
+            name:"Kitchen"
         },
         {
           url:
-            "https://www.makemyhouse.com/assets/themelibv3assets/images/web-images/card-5.jpg?version=210"
+            "https://www.makemyhouse.com/assets/themelibv2assets/app_assets/images/new/pujaroom.webp?version=210",
+            name:"Puja Room"
         },
         {
-          url:
-            "https://www.makemyhouse.com/assets/themelibv3assets/images/web-images/card-6.jpg?version=210"
-        },
+            url:
+              "https://www.makemyhouse.com/assets/themelibv2assets/app_assets/images/new/kidsroom.webp?version=210",
+              name:"Living Room"
+          },
+    
       ];
 
       const carouselRef = useRef(null);
@@ -55,7 +62,7 @@ const MyCarousel = () => {
           className="custom-button left-button"
           onClick={() => carouselRef.current.previous()}
         >
-                  <img src="	https://www.makemyhouse.com//assets/themelibv3assets/images/left-errow.png" alt="" />
+                  <img src="https://www.makemyhouse.com//assets/themelibv3assets/images/left-errow.png" alt="" />
 
         </button>
       );
@@ -94,14 +101,16 @@ const MyCarousel = () => {
       pauseOnHover
       partialVisible={false}
       rtl={false}
+      autoPlaySpeed={2000} 
       dotListClass="custom-dot-list-style"
-        customButtonGroup={<CustomButtonGroup />}
+        // customButtonGroup={<CustomButtonGroup />}
         ref={carouselRef}
     >
       {sliderImageUrl.map((imageUrl, index) => {
         return (
-          <div className="slider p-2 rounded-3" key={index}>
-            <img src={imageUrl.url} alt="movie" width={"100%"} className='rounded-3 border border-secondary'/>
+          <div className="slider p-2 m-1 rounded-3 border border-secondary" key={index} style={{background:"#f8f9fa"}}>
+            <img src={imageUrl.url} alt="movie" width={"100%"} height={"200px"} className='rounded-3 border border-secondary'/>
+            <center className='mt-3'><b>{imageUrl.name}</b></center>
           </div>
         );
       })}
@@ -110,4 +119,4 @@ const MyCarousel = () => {
   );
 };
 
-export default MyCarousel;
+export default InteriorDesign;
