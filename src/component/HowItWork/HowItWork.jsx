@@ -9,13 +9,13 @@ function HowItWork() {
         <div className="create_div">
                     <div className="inner-create_div"></div>
                 </div>
-                <div className='row p-4 gap-5'>
+                <div className='row p-4'>
 <div className='col-7 px-5'>
     <HowItWorkCarosuael/>
 
 </div>
-<div className='col-5 p-4 pb-5 bg-white how_it_work_form'>
-    <h5>Consult With Our Home Design Experts</h5>
+<div className='col-5 p-4 pb-5 bg-white how_it_work_form' style={{width:"36%"}}>
+    <h5><b>  Consult With Our Home Design Experts </b></h5>
 <input type="text" placeholder='Name' className='form-control mt-5'/>
 <input type="text" placeholder='Country' className='form-control mt-3'/>
 <div className='row mt-4'>
