@@ -1,11 +1,13 @@
 import React from 'react'
 import "./HowItWork.css"
 import HowItWorkCarosuael from '../Carosuael/HowItWorkCarosuael';
+import Switch from '@mui/material/Switch';
 
 function HowItWork() {
+  const label = { inputProps: { 'aria-label': 'Switch demo' } };
   return (
     <div className='how_it_work_main_div'>
-        <h4>How It Work</h4>
+       <center> <h4>How It Work</h4></center>
         <div className="create_div">
                     <div className="inner-create_div"></div>
                 </div>
@@ -23,18 +25,44 @@ function HowItWork() {
     <p style={{fontWeight:"bolder"}}>You can reach me on WhatsApp</p>
     <p>Get notified about upcoming design meetings and offers</p>
     </div>
-    <div className='col-3 mt-4'>
-  <button type="">Toggle</button>
-    </div>
+    <div class="col-sm-2 pt-4">
+                                             <Switch
+                                              //  checked={obj2.mandatory}
+                                               size="medium"
+                                               color="warning"
+                                              //  onClick={() =>
+                                              //    toggleMandatory(obj2.name)
+                                              //  }
+                                               sx={{
+                                                 "& .MuiSwitch-thumb": {
+                                                   backgroundColor:
+                                                     "white",
+                                                    //  : "#bdbbbb",
+                                                   height: 0,
+ 
+                                                   border:
+                                                      "9px solid white"
+                                                    //  : "9px solid #bdbbbb",
+                                                 },
+                                                 "& .MuiSwitch-track": {
+                                                   backgroundColor: 
+                                                      "green",
+                                                    //  : "#bdbbbb",
+                                                   // height:33,
+                                                   border: "green",
+                                                 },
+                                               }}
+                                             />
+</div>
 </div>
 <input type="text" placeholder='Email' className='form-control mt-3'/>
 <input type="text" placeholder='City' className='form-control mt-3'/>
 <input type="text" placeholder='Requirement' className='form-control mt-3'/>
 <button className="register_btn form-control mt-3">Register as Contractor</button>
-<div className='mt-3' style={{fontSize:"13px"}}>
-<p>By submitting this form, you agree to the</p>
-<p style={{color:"#3bad4b",margin:"-15`px"}}> <span> Privacy Policy </span> &  <span> Terms And Conditions </span></p>
-</div>
+<center> <div className='mt-3' style={{fontSize:"13px"}}>
+<p className='p-0 m-0'>By submitting this form, you agree to the</p>
+<p className='p-0 m-0' style={{color:"#3bad4b"}}> <span> Privacy Policy </span> &  <span> Terms And Conditions </span></p>
+</div></center>
 
 
 </div>
