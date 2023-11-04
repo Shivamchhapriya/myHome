@@ -2,8 +2,8 @@ import React from 'react';
 import "./Back1.css";
 function Back1() {
   return (<>
-  <div>
-    <div className="row contain mt-5 pt-0 pb-4">
+  <div className='p-4'>
+    <div className="row contain ms-1 pt-0 pb-4">
             <div className='col-sm-8 mt-5 ps-5'>
                 <div className="w-100">
                     <div className="w-100">

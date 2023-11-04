@@ -79,8 +79,10 @@ function MiniCard(props) {
   return (
     <>
       <div onMouseLeave={()=>setHover(false)} onMouseOver={()=>setHover(true)} className="mini_card col-2 p-4 mb-3">
-        <img src={props.image} alt="" />
+       <div style={{display:'flex',justifyContent:'center'}}> <img src={props.image} alt="" /></div>
+       <center>
         <h6 className={hover?"underline-text mt-3 font-weight-bold":"mt-3 font-weight-bold"}>{props.name}</h6>
+        </center>
       </div>
     </>
   );

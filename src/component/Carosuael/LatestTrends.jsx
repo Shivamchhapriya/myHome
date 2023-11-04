@@ -94,7 +94,8 @@ const LatestTrends= () => {
         );
       };
   return (
-    <div className="px-3 mt-5"> 
+
+    <div className="px-3  tab-content" > 
     <Carousel
       responsive={responsive}
       autoPlay={true}

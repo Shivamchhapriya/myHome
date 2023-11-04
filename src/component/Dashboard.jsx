@@ -7,6 +7,9 @@ import ContractorWorkes from './ContractorWorkers/ContractorWorker'
 import Back1 from './Background/Back1'
 import HowItWork from './HowItWork/HowItWork'
 import Back_3 from './Background_3/Back_3'
+import CommercialDesign from './CommercialDesign'
+import LatestHouse from './LatestHouse'
+import Footer from './Footer'
 
 function Dashboard() {
   return (
@@ -14,11 +17,15 @@ function Dashboard() {
    <FrontPage/>
    <MyCarousel/>
    <Back1/>
+
+   <LatestHouse/>
+   <CommercialDesign/>
    <Back11/>
    <Back_4/>
    <ContractorWorkes/>
    <HowItWork/>
    <Back_3/>
+   <Footer/>
    </>
   )
 }

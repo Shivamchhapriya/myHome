@@ -1,0 +1,113 @@
+.template_Tab .Mui-selected{
+    color: white !important;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: #3bad4b !important;
+    /* width: 104px; */
+    height: 14px !important;
+    flex-shrink: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+/* border: 1px solid #ED7D31 !important; */
+
+  
+}
+
+    .template_Tab .MuiButtonBase-root{
+        color: black ;
+        text-align: center;
+        font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        /* border-top-left-radius: 10px;
+        border-top-right-radius: 10px; */
+        /* border: 1px solid #E9E1E1; */
+        /*background: #e58b05 !important;
+        */
+        /* width: 104px; */
+        height: 14px !important;
+        flex-shrink: 0;
+       
+}
+    .template_Tab .MuiButtonBase-root{
+        min-height: 30px !important;
+    }
+
+    /* .template_Tab .MuiButtonBase-root:hover{
+        background-color: #ED7D31 !important;
+        color: white;
+    } */
+   
+    .template_Tab .MuiTabs-indicator{
+        /* background: #ED7D31; */
+        width: 0px !important;
+        height: 0px !important;
+        bottom: 0px !important;
+    }
+    .ttl{
+        font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    }
+    .ttl-brdr {
+        width: 80px;
+        height: 5px;
+        background: #000;
+        margin: auto;
+        margin-top: 12px;
+        position: relative;
+    }
+    .innr-ttl-brdr {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: #3bad4b;
+        position: absolute;
+        left: 43%;
+        top: -5px;
+    }
+
+    .tab-content {
+        background: #def6e5;
+        padding: 30px 50px;
+        position: relative;
+        /* overflow: hidden; */
+        width: 100%;
+    }
+
+    .slider-img-amin {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* width: 100%; */
+        height: 250px;
+        background: #e1e1e1;
+        overflow: hidden;
+    }
+    .slid-con {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .slider-img-amin img {
+         height: 100%;
+    }
+
+    .custom_body .MuiTypography-root {
+        padding: 0px !important;
+    }
+    .custom_body .MuiBox-root{
+        padding: 0px !important;
+    }
