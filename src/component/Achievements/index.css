@@ -1,0 +1,13 @@
+.trending{
+    padding: 0px 30px;
+    margin: 80px 0px;
+}
+.branch-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.sld-shad {
+    border: 1px solid #BFBFBF;
+}
