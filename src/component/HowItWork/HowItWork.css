@@ -1,0 +1,25 @@
+.create_div{
+    width: 80px;
+    height: 6px;
+    background: black;  
+    margin: auto;
+    margin-top: 12px;
+    position: relative;
+}
+.inner-create_div{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #3bad4b;
+    position: absolute;
+    left: 43%;
+    top: -5px;
+}
+.how_it_work_main_div{
+    background: #def6e5;
+    padding: 50px 40px;
+}
+.how_it_work_form{
+    width: 450px;
+
+}
