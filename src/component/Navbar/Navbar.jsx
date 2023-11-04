@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css"
+import Dashboard from "../Dashboard";
 
 
 
@@ -382,6 +383,7 @@ function Navbar() {
           </div>
         </div>
       </div>
+      <Dashboard/>
     </>
   );
 }
