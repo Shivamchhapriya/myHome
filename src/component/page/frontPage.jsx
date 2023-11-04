@@ -56,7 +56,7 @@ function FrontPage() {
 
                    <div className="maincontainer" >
                     <h2 className="frontHeader" >
-                        <p>अब घर बनेगा आसानी से</p>
+                        <p>अब घर बनेगा आसानी से</p>    
                     </h2>
 
                     <div className="frist-grey mt-5"  >
