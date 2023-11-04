@@ -82,7 +82,7 @@ const MyCarousel = () => {
         );
       };
   return (
-    <div className="p-5">
+    <div className="p-5"> 
     <Carousel
       responsive={responsive}
       autoPlay={true}
