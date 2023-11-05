@@ -12,10 +12,12 @@ import LatestHouse from './LatestHouse'
 import Footer from './Footer'
 import Showcasing from './Carosuael/Showcasing'
 import HearFrom from './Carosuael/HearFrom'
+import Demo from './page/demo'
 
 function Dashboard() {
   return (
    <>
+   {/* <Demo/> */}
    <FrontPage/>
    <MyCarousel/>
    <Back1/>
