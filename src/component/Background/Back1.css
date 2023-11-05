@@ -29,6 +29,6 @@
 p{
     font-weight: 400px;
     color: #000000;
-    padding-right: 100px;
+    /* padding-right: 100px; */
     font-family: revert;
 }
