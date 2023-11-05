@@ -64,7 +64,7 @@ function ContractorWorkes() {
 <button className="register_btn">Register as Contractor</button>
         </div>
     </div>
-      <div className="row d-flex justify-content-center mini_card_gap">
+      <div className="row justify-content-center mini_card_gap m-5">
         {WokersData.map((dt) => (
           <MiniCard name={dt.name} image={dt.image} />
         ))}
@@ -78,7 +78,7 @@ function MiniCard(props) {
     const[hover,setHover] = useState(false)
   return (
     <>
-      <div onMouseLeave={()=>setHover(false)} onMouseOver={()=>setHover(true)} className="mini_card col-2 p-4 mb-3">
+      <div onMouseLeave={()=>setHover(false)} onMouseOver={()=>setHover(true)} className="mini_card col-lg-2 col-md-3 col-sm-6 p-4 mb-3">
        <div style={{display:'flex',justifyContent:'center'}}> <img src={props.image} alt="" /></div>
        <center>
         <h6 className={hover?"underline-text mt-3 font-weight-bold":"mt-3 font-weight-bold"}>{props.name}</h6>

@@ -11,17 +11,19 @@ function HowItWork() {
         <div className="create_div">
                     <div className="inner-create_div"></div>
                 </div>
-                <div className='row p-4'>
-<div className='col-7 px-5'>
+                <div className='row p-lg-5 '>
+<div className='col-lg-7 col-md-7 col-sm-12 '>
     <HowItWorkCarosuael/>
 
 </div>
-<div className='col-5 p-4 pb-5 bg-white how_it_work_form' style={{width:"36%"}}>
+<div className='col-lg-5 col-md-5 col-sm-12 p-4 pb-5 bg-white how_it_work_form mt-2 ' >
+  <center>
     <h5><b>  Consult With Our Home Design Experts </b></h5>
+    </center>
 <input type="text" placeholder='Name' className='form-control mt-5'/>
 <input type="text" placeholder='Country' className='form-control mt-3'/>
 <div className='row mt-4'>
-    <div className='col-9 text-start' style={{fontSize:"13px"}}>
+    <div className='col-lg-9 col-sm-10 text-start' style={{fontSize:"13px"}}>
     <p style={{fontWeight:"bolder"}}>You can reach me on WhatsApp</p>
     <p>Get notified about upcoming design meetings and offers</p>
     </div>
