@@ -10,10 +10,12 @@ import Back_3 from './Background_3/Back_3'
 import CommercialDesign from './CommercialDesign'
 import LatestHouse from './LatestHouse'
 import Footer from './Footer'
+import Demo from './page/demo'
 
 function Dashboard() {
   return (
    <>
+   {/* <Demo/> */}
    <FrontPage/>
    <MyCarousel/>
    <Back1/>

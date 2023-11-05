@@ -5,9 +5,9 @@ function CardForm() {
     const [hover,setHover]=useState()
     return (  
         <>
-<div className="main_Form_card">
+<div className="main_Form_card mt-2">
 
-<div className="d-flex gap-3">
+<div className="d-flex gap-3 ms-2">
            { [1,2,3].map((item)=>
            <div onMouseLeave={()=>setHover(false)} onMouseOver={()=>setHover(true)}  className=" mini_card_header rounded-3   mb-3">
         <div style={{display:'flex',justifyContent:'center'}}>

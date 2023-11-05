@@ -51,19 +51,19 @@ function FrontPage() {
     return ( 
         <>
             <div>
-               <div>
-                    <img src="/asset/frontPage.jpg" className="w-100" alt="" srcset="" />
+               <div className="mainImage" >
+                    {/* <img src="/asset/frontPage.jpg" className="w-100" alt="" srcset="" /> */}
 
                    <div className="maincontainer" >
-                    <h2 className="frontHeader" >
-                        <p className="text-white">अब घर बनेगा आसानी से</p>    
-                    </h2>
-
-                    <div className="frist-grey mt-5"  >
+                    <div className="frontHeader " >
+                        <h1  className="text-white fw-bold mt-5">अब घर बनेगा आसानी से</h1>    
                     </div>
+                  <div className="row background_color">
 
-                    <Box sx={{ width: '100%' }}>
-      <Box sx={{ borderBottom: 1, borderColor: 'divider',background:'#DADADA' ,position:'relative',left:'18%'}} className='mx-5'>
+                    <div className="frist-grey  col-12 mt-5"  >
+                    <Box >
+                      <div className="background_tab_padding">
+      <Box sx={{ borderBottom: 1, borderColor: 'divider',background:'#DADADA',marginTop:'-40px'}} className='mx-lg-4 mx-md-2 mx-sm-1'>
         <Tabs className="builder "  value={value} onChange={handleChange} aria-label="basic tabs example">
           <Tab  label={
             <div>
@@ -74,7 +74,6 @@ function FrontPage() {
            
   <span className="mt-1">2D Layout Plan</span> 
           </div>
-          {/* <div className=""> helelel</div> */}
           </div>
         }   {...a11yProps(0)} />
           <Tab  label={
@@ -116,7 +115,10 @@ function FrontPage() {
           </div>
         }   {...a11yProps(4)} />
         </Tabs>
+      
+       
       </Box>
+      </div>
       <CustomTabPanel className='tab_body'  value={value} index={0}>
        <FormHeader/>
        
@@ -133,11 +135,15 @@ function FrontPage() {
       <FormHeader/>
 
       </CustomTabPanel>
-      <CustomTabPanel className='tab_body' value={value} index={4}>
+      <CustomTabPanel className='tab_body_2' value={value} index={4}>
       <CardForm/>
 
       </CustomTabPanel>
-    </Box>
+    </Box> 
+                    </div>
+                  </div>
+
+                
                     </div>
                </div>
             </div>
