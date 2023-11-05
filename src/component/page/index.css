@@ -2,24 +2,56 @@
 
 .frontHeader{
     font-family: 'Noto Serif Devanagari', serif;
-    font-size: 50px;
+    /* font-size: 50px; */
     color: #fff !important;
-    text-align: end;
-    font-weight: bold;
-    margin-left: 14%;
-    width: 100%;
+    /* text-align: end; */
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 8%; */
+    /* width: 119%; */
 }
 .maincontainer{
-    position: absolute;
+    /* position: absolute;
     top: 22%;
-    right: 34%;
+    right: 41%; */
 }
 .frist-grey{
     background: #54545461;
     height: 137px;
+    /* display: flex; */
+    /* justify-content: center; */
     /* width: 100px; */
-    width: 137%;
-    position: absolute;
+    /* width: 230%;
+    left: -50%; */
+    /* position: absolute; */
+}
+.background_color{
+    padding: 1% 19% 0px 19%;
+}
+.background_tab_padding{
+    padding: 0% 13.4% 0% 12%;
+}
+.mainImage{
+    background-image: url("../../../public/asset/frontPage.jpg");
+    height: 600px;
+    width: 100% !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: ; */
+
+}
+.builder .MuiTabs-flexContainer{
+    overflow: scroll !important;
+}
+.builder .MuiTabs-flexContainer::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.builder .MuiTabs-flexContainer {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
 .builder .Mui-selected{
@@ -105,11 +137,12 @@ transition: 1s all ease;
     justify-content: center;
     margin-bottom: 5px;
 }
-.tab_body .MuiBox-root{
-    position: absolute;
+.tab_body_2 .MuiTypography-root{
+    /* position: absolute; */
+    padding: 0% 7%;
 }
 .input-Width{
-    width: 16% !important;
+    /* width: 16% !important; */
 }
 .form-bg{
     background: #12203c8c !important;
@@ -118,13 +151,16 @@ transition: 1s all ease;
     margin-top: 27px; */
 
 }
+.btn_Size{
+    padding: 5% 1% 5% 1% !important;
+}
 .main_Form{
     background: #12203c8c;
     /* width: 97%;
     margin: auto;
     margin-top: 27px; */
     padding: 24px;
-    width: 60rem;
+    /* width: 150%; */
     /* position: absolute;
     height: 85%; */
 }
@@ -133,10 +169,18 @@ transition: 1s all ease;
     /* width: 97%;
     margin: auto;
     margin-top: 27px; */
-    padding: 24px;
-    width: 60rem;
-    position: absolute;
-    height: 385%;
+    padding: 2%;
+    overflow: scroll;
+  
+}
+.main_Form_card::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.main_Form_card {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 .font-weight-bolder{
     font-size: 24px;
@@ -146,8 +190,7 @@ transition: 1s all ease;
     background: white;
     box-shadow: 0px 0px 14px 3px rgba(0, 0, 0, 0.25);
     min-height: 10px !important;
-    padding: 15px 35px;
-position: relative;
+    padding: 2% 2%;
   }
   .underline-text-header{
     text-decoration: underline;
@@ -156,3 +199,28 @@ position: relative;
 
  
 /* === form */
+
+
+
+/* ======= media Queary */
+
+@media (min-width: 350px) and (max-width: 767px) {
+    /* CSS styles for small screens (e.g., mobile phones) */
+    .background_color{
+        padding: 1% 5% 0px 5%;
+    }
+    .background_tab_padding{
+        padding: 0% 2% 0% 2%;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* CSS styles for medium screens (e.g., tablets) */
+    .background_color{
+        padding: 1% 8% 0px 8%;
+    }
+    .background_tab_padding{
+        padding: 0% 2% 0% 2%;
+    }
+   
+  }
