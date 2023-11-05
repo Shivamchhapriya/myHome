@@ -10,6 +10,8 @@ import Back_3 from './Background_3/Back_3'
 import CommercialDesign from './CommercialDesign'
 import LatestHouse from './LatestHouse'
 import Footer from './Footer'
+import Showcasing from './Carosuael/Showcasing'
+import HearFrom from './Carosuael/HearFrom'
 
 function Dashboard() {
   return (
@@ -25,6 +27,8 @@ function Dashboard() {
    <ContractorWorkes/>
    <HowItWork/>
    <Back_3/>
+   <Showcasing/>
+   <HearFrom/>
    <Footer/>
    </>
   )
