@@ -5,7 +5,7 @@ function FormHeader() {
     return (
         <>
             <div className="main_Form">
-            <form action="/action_page.php" className="d-flex gap-2 p-0 row">
+            <form action="/action_page.php" className="d-flex  p-0 row">
             <div class="form-group col-sm-2 pe-0 mb-0 has-error has-feedback input-Width">
 <input type="number" name="depth" class="form-control" id="length" aria-describedby="length" placeholder="Depth" />
 </div>

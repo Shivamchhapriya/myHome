@@ -111,3 +111,9 @@
     .custom_body .MuiBox-root{
         padding: 0px !important;
     }
+
+
+    .col-sm-12I .imageSet {
+        width: 318px;
+        height: 267px;
+    }

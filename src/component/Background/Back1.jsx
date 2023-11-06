@@ -15,7 +15,7 @@ function Back1() {
                 </div>
             </div>
             <div className='col-sm-4 p-0 '>
-            <img alt='about us image' src='./asset/dream-home.png' width="100%"/>
+            <img alt='about us image' src='	https://www.makemyhouse.com/assets/themelibv3assets/images/web-images/dream-home.png?version=210' width="100%"/>
             </div>
     </div>
   </div>

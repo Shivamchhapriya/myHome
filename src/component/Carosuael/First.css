@@ -21,9 +21,12 @@
     right: 1px;
   }
   .tab-content {
-    background: #def6e5;
-    padding: 30px 50px;
+    background-color: #F8F9FA !important;
     position: relative;
-    /* overflow: hidden; */
+    overflow: hidden;
     width: 100%;
+}
+
+.Imgset{
+  width: 100%;
 }

@@ -15,7 +15,7 @@ function Back11() {
        </div>
        <div className='row pt-5'>
            <div className="col-sm-3 mb-5">
-              <a href='https://plotkhareedo.com/' target='_blank' >
+              <a href='#'>
               <div className='Outer_div Outer_div-2'>
                <img className='alignment' src='https://www.makemyhouse.com//assets/themelibv3assets/images/plot-logo.png' />
                  <div className='Outer_div_icon'>
@@ -32,7 +32,7 @@ function Back11() {
               </a>
            </div>
            <div className="col-sm-3 mb-5">
-              <a href='https://www.masonsandmortar.com/' target='_blank' >
+              <a href='#'>
               <div className='Outer_div Outer_div-3'>
                <img className='alignment' src='https://www.makemyhouse.com//assets/themelibv3assets/images/masons.png' />
                  <div className='Outer_div_icon'>
@@ -49,7 +49,7 @@ function Back11() {
               </a>
            </div>
            <div className="col-sm-3 mb-5">
-              <a href='https://yellowcap.in/' target='_blank' >
+              <a href='#'>
               <div className='Outer_div Outer_div-4'>
                <img className='alignment' src='	https://www.makemyhouse.com//assets/themelibv3assets/images/yellow-cap.png' />
                  <div className='Outer_div_icon'>
@@ -66,9 +66,9 @@ function Back11() {
               </a>
            </div>
            <div className="col-sm-3 mb-5">
-              <a href='https://www.makemyhouse.com/site/site_supervision' target='_blank' >
+              <a href='#'>
               <div className='Outer_div Outer_div-5'>
-               {/* <img className='alignment' src='https://www.makemyhouse.com//assets/themelibv3assets/images/plot-logo.png' /> */}
+               <img className='alignment' src='https://www.makemyhouse.com//assets/themelibv3assets/images/yellow-cap.png' />
                  <div className='Outer_div_icon'>
                     <img src='https://www.makemyhouse.com/assets/themelibv3assets/images/web-images/e-5.png?version=210' loading='lazy' />
                  </div>

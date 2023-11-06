@@ -26,37 +26,37 @@ const LatestTrends= () => {
         {
           url:
             "https://www.makemyhouse.com/assets/themelibv2assets/app_assets/images/new/1000sqft.webp?version=210",
-            size:"950sqft - 11sqft"
+            size:"Area: 950sqft - 1100sqft"
         },
         {
           url:
             "https://www.makemyhouse.com/assets/themelibv2assets/app_assets/images/new/1150sqft.webp?version=210",
-            size:"950sqft - 11sqft"
+            size:"Area: 1150sqft - 1300sqft"
         },
         {
           url:
             "https://www.makemyhouse.com/assets/themelibv2assets/app_assets/images/new/1350sqft.webp?version=210",
-            size:"950sqft - 11sqft"
+            size:"Area: 1350sqft - 1500sqft"
         },
         {
           url:
             "https://www.makemyhouse.com/assets/themelibv2assets/app_assets/images/new/1750sqft.webp?version=210",
-            size:"950sqft - 11sqft"
+            size:"Area: 1550sqft - 1800sqft"
         },
         {
           url:
             "https://www.makemyhouse.com/assets/themelibv2assets/app_assets/images/new/2BHK.webp?version=210",
-            size:"950sqft - 11sqft"
+            size:"Area: 1750sqft - 1900sqft"
         },
         {
           url:
             "	https://www.makemyhouse.com/assets/themelibv2assets/app_assets/images/new/6BHK.webp?version=210",
-            size:"950sqft - 11sqft"
+            size:"Area: 1950sqft - 2100sqft"
         },
         {
           url:
             "https://www.makemyhouse.com/assets/themelibv2assets/app_assets/images/new/6BHK.webp?version=210",
-            size:"950sqft - 11sqft"
+            size:"Area: 2150sqft - 2300sqft"
         },
     
       ];
@@ -114,8 +114,8 @@ const LatestTrends= () => {
     >
       {sliderImageUrl.map((imageUrl, index) => {
         return (
-          <div className="slider p-2 rounded-3 justify-content-center" key={index}>
-            <img src={imageUrl.url} alt="movie" width={"100%"} height={"300px"} className='rounded-3 border border-secondary'/>
+          <div className="slider p-1 rounded-5 justify-content-center" key={index}>
+            <img src={imageUrl.url} alt="movie" width={"100%"} height={"250px"} className='rounded-3 border border-secondary'/>
             <center className='mt-3'><b>{imageUrl.size}</b></center>
           </div>
         );
