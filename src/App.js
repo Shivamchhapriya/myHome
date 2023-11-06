@@ -1,4 +1,3 @@
-import Navbar from "./component/Navbar/Navbar";
 import "bootstrap/dist/css/bootstrap.css";
 // import "bootstrap/dist/js/bootstrap.bundle";
 // import { createPopper } from "@popperjs/core";
@@ -8,11 +7,12 @@ import "bootstrap/dist/js/bootstrap";
 // import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
 
 import "./App.css";
+import AllRoutes from "./component/Routes/Routes";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <AllRoutes/>
     </div>
   );
 }
