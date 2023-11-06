@@ -64,15 +64,11 @@ const HearFrom= () => {
             name:"Ayush",
             content:"lorem ipsum dolor sit amet, consectetur adip non pro id el element i    id. Lorem ipsum dolor sit amet, consectet tempor invidunt ut labore et dolore magna aliqu sapien null null. Lorem ipsum dolor sit amet, consectet   tempor invidunt ut labore et dolore magna aliqu sap"
         },
-       
-    
       ];
 
       const carouselRef = useRef(null);
-      
       function CustomDot(props) {
         const { onClick, index, active } = props;
-      
         return (
           <button
             onClick={onClick}
@@ -89,13 +85,14 @@ const HearFrom= () => {
         );
       }
   return (
-    <div className="px-3 mt-5"> 
-    <center> 
-        <b style={{fontSize:"25px"}}>Hear From Our Satisfied Homeowners</b>
-        <div className="create_div mb-5">
-                    <div className="inner-create_div"></div>
-                </div>
-    </center>
+    <div className="px-3 mt-5 "> 
+        <center> 
+            <b style={{fontSize:"25px"}}>Hear From Our Satisfied Homeowners</b>
+            <div className="create_div mb-5">
+                        <div className="inner-create_div"></div>
+                    </div>
+        </center>
+    <div className='tab-content' style={{padding:"20px 40px"}}>
     <Carousel
         responsive={responsive}
         autoPlay={true}
@@ -113,23 +110,28 @@ const HearFrom= () => {
       >
       {sliderImageUrl.map((imageUrl, index) => {
         return (
-          <div className="slider p-3 m-2 rounded-3 justify-content-center border border-secondary" key={index} >
-            <div className='row'>
-                <div className='col-2'>
-                <img src={"https://www.makemyhouse.com/assets/themelibv3assets/images/web-images/user.png?version=210"} alt="movie" width={"37px"}className=''/>
-                </div>
-                <div className='col-10'>
-                <h4><b>{imageUrl.name} </b></h4>
-                <span style={{color:"green"}}>({imageUrl.city})</span>
-                </div>
-                <p className='mt-3'>⭐️⭐️⭐️⭐️⭐️</p>
-                <p>{imageUrl.content}</p>
+          <div className='ms-4 mb-5'>
+            <div className="slider justify-content-center tab-content mt-3 mb-3 " style={{border:"1px solid #BFBFBF"}} key={index} >
+              <div className='row'>
+                  <div className='col-2'>
+                    <img src={"https://www.makemyhouse.com/assets/themelibv3assets/images/web-images/user.png?version=210"} alt="movie" width={"37px"}className=''/>
+                  </div>
+                  <div className='col-10'>
+                      <h4><b>{imageUrl.name} </b></h4>
+                      <span style={{color:"green"}}>({imageUrl.city})</span>
+                  </div>
+                  <img className='mt-3' alt="5 star" loading="lazy" src="https://www.makemyhouse.com/assets/themelibv3assets\images\web-images\five-stars.png?version=210" style={{width: "30%"}}/>
+                  {/* <p className='mt-3'>⭐️⭐️⭐️⭐️⭐️</p> */}
+                  <p>{imageUrl.content}</p>
+              </div>
             </div>
           </div>
         );
       })}
     </Carousel>
   </div>
+  </div>
+  
   );
 };
 

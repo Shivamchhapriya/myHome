@@ -51,33 +51,22 @@ const MyCarousel = () => {
 
       const carouselRef = useRef(null);
       const CustomLeftButton = () => (
-        <button
-          className="custom-button left-button"
-          onClick={() => carouselRef.current.previous()}
-        >
-                  <img src="	https://www.makemyhouse.com//assets/themelibv3assets/images/left-errow.png" alt="" />
-
+        <button className="custom-button left-button" onClick={() => carouselRef.current.previous()}>
+          <img src="https://www.makemyhouse.com//assets/themelibv3assets/images/left-errow.png" alt="" />
         </button>
       );
-    
       const CustomRightButton = () => (
-        <button
-          className="custom-button right-button"
-          onClick={() => carouselRef.current.next()}
-        >
+        <button className="custom-button right-button" onClick={() => carouselRef.current.next()}>
          <img src="	https://www.makemyhouse.com//assets/themelibv3assets/images/right-errow.png" alt="" />
-
         </button>
       );
       const CustomButtonGroup = (props) => {
         return (
           <div className="custom-button-group">
-          
               <>
                 <CustomLeftButton {...props} />
                 <CustomRightButton {...props} />
               </>
-       
           </div>
         );
       };

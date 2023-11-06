@@ -60,12 +60,9 @@ function CommercialDesign() {
         <Tabs value={value} onChange={handleChange}  className="template_Tab p-0" aria-label="basic tabs example">
           <Tab label="Magnificient Commercial
 Design" {...a11yProps(0)} />
-          <Tab label="Magnificient Commercial
-Design" {...a11yProps(1)} />
-          <Tab label="Magnificient Commercial
-Design" {...a11yProps(2)} />
-  <Tab label="Magnificient Commercial
-Design" {...a11yProps(3)} />
+          <Tab label="Elegent Institutional Design" {...a11yProps(1)} />
+          <Tab label="Residential / Rental Apartment Design" {...a11yProps(2)} />
+  <Tab label="Best olf Hospitility - (Hotels / Hospitals)" {...a11yProps(3)} />
         </Tabs>
       </Box>
       <CustomTabPanel className='custom_body' value={value} index={0}>

@@ -96,44 +96,52 @@ const Showcasing= () => {
         );
       };
   return (
-    <div className="px-3 mt-5"> 
-    <center> 
-        <b style={{fontSize:"25px"}}>Showcasing Our Pan-India Home Design Projects</b>
-        <div className="create_div mb-5">
-                    <div className="inner-create_div"></div>
+    <div className="m-5"> 
+        <center> 
+            <b style={{fontSize:"25px"}}>Showcasing Our Pan-India Home Design Projects</b>
+            <div className="create_div mb-5">
+              <div className="inner-create_div"></div>
+            </div>
+        </center>
+        <div className='tab-content' style={{padding:"20px 40px"}}>
+        <Carousel
+                responsive={responsive}
+              autoPlay={true}
+              arrows={false}
+              swipeable={true}
+              draggable={true}
+              showDots={false}
+              infinite={true}
+              pauseOnHover
+              partialVisible={false}
+              rtl={false}
+              autoPlaySpeed={2000} 
+              dotListClass="custom-dot-list-style"
+                // customButtonGroup={<CustomButtonGroup />}
+            ref={carouselRef}
+            >
+        {sliderImageUrl.map((imageUrl, index) => {
+          return (<>
+            <div className='ms-2'>
+              <div className="tab-content mt-3 mb-3" style={{border:"1px solid #BFBFBF"}}>
+                <div className="slider  justify-content-center " key={index} >
+                      <center className='mt-3'>
+                          <img src={imageUrl.url} alt="movie" width={"100px"}/>
+                          <br></br>
+                          <h4><b>{imageUrl.project} </b>Projects</h4>
+                          <span>Completed In</span>
+                          <br></br>
+                          <b className='mt-2'>{imageUrl.name}</b>
+                      </center>
                 </div>
-    </center>
-    <Carousel
-      responsive={responsive}
-      autoPlay={true}
-      arrows={false}
-      swipeable={true}
-      draggable={true}
-      showDots={false}
-      infinite={true}
-      pauseOnHover
-      partialVisible={false}
-      rtl={false}
-      autoPlaySpeed={2000} 
-      dotListClass="custom-dot-list-style"
-        // customButtonGroup={<CustomButtonGroup />}
-        ref={carouselRef}
-    >
-      {sliderImageUrl.map((imageUrl, index) => {
-        return (
-          <div className="slider p-3 m-2 rounded-3 justify-content-center border border-secondary" key={index} >
-            <center className='mt-3'>
-                <img src={imageUrl.url} alt="movie" width={"150px"}className=''/>
-                <br></br>
-                <h4><b>{imageUrl.project} </b>Projects</h4>
-                <span>Completed In</span>
-                <br></br>
-                <b className='mt-2'>{imageUrl.name}</b>
-            </center>
-          </div>
-        );
-      })}
-    </Carousel>
+              </div>
+             </div>
+          </>
+          );
+        })}
+      </Carousel>
+        </div>
+     
   </div>
   );
 };

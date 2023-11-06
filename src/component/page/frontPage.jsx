@@ -69,7 +69,7 @@ function FrontPage() {
             <div>
           <div >
             <div className="tab_icon">
-            <img src="/asset/iconHead.png" alt="Your Image" width="23" height="23" />
+            <img src="https://www.makemyhouse.com/assets/themelibv3assets/images/web-images/2d.png?version=210" alt="Your Image" width="23" height="23" />
             </div>
            
   <span className="mt-1">2D Layout Plan</span> 
@@ -80,38 +80,34 @@ function FrontPage() {
             <div>
           <div >
             <div className="tab_icon">
-            <img src="/asset/iconHead.png" alt="Your Image" width="23" height="23" />
+            <img src="https://www.makemyhouse.com/assets/themelibv3assets/images/web-images/3d.png?version=210" alt="Your Image" width="23" height="23" />
             </div>
-           
-2D Layout Plan
+          3D FRONT ELEVATION
           </div>
           </div>
         }   {...a11yProps(1)} />
            <Tab  label={
           <div >
             <div className="tab_icon">
-            <img src="/asset/iconHead.png" alt="Your Image" width="23" height="23" />
+            <img src="https://www.makemyhouse.com/assets/themelibv3assets/images/web-images/structual.png?version=210" alt="Your Image" width="23" height="23" />
             </div>
-           
-2D Layout Plan
+           STRUCTUAL DESIGN
           </div>
         }   {...a11yProps(2)} />
          <Tab  label={
           <div >
             <div className="tab_icon">
-            <img src="/asset/iconHead.png" alt="Your Image" width="23" height="23" />
+            <img src="https://www.makemyhouse.com/assets/themelibv3assets/images/web-images/presentation.png?version=210" alt="Your Image" width="23" height="23" />
             </div>
-           
-2D Layout Plan
+             PRESENTATION PLAN           
           </div>
         }   {...a11yProps(3)} />
          <Tab  label={
           <div >
             <div className="tab_icon">
-            <img src="/asset/iconHead.png" alt="Your Image" width="23" height="23" />
+            <img src="https://www.makemyhouse.com/assets/themelibv3assets/images/web-images/more-1.png?version=210" alt="Your Image" width="23" height="23" />
             </div>
-           
-2D Layout Plan
+           MORE
           </div>
         }   {...a11yProps(4)} />
         </Tabs>
