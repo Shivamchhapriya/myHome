@@ -1,6 +1,7 @@
 import React from "react";
 import "./header.css"
 import Dashboard from "../Dashboard";
+import { Link } from "react-router-dom";
 
 
 
@@ -374,8 +375,9 @@ function Navbar() {
                         padding: 2px 10px
 								}
                     </style> */}
+                    <Link to="/login">
                     <a class="btn btn-light" href="#"><img loading="lazy" alt="" src="https://www.makemyhouse.com/assets/themelibv3assets/images/Login.png" class="me-2" style={{ width: "15px" }} />Login</a>
-
+                    </Link> 
                   </div>
                 </div>
               </nav>
