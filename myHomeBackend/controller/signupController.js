@@ -5,7 +5,7 @@ const postSignUp = require("../modal/signupModal");
 // crete new user account
 const postSignUpController = async(req,res)=>{
     const {fullName,email,password,confirmPassword}=req.body;
-    const user = {fullName,email,password,confirmPassword}
+    const user = {fullName,email,password}
     if(password === confirmPassword){
       const data =await postSignUp(user);
       res.send(data)
