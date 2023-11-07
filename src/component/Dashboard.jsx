@@ -13,6 +13,7 @@ import Footer from './Footer'
 import Showcasing from './Carosuael/Showcasing'
 import HearFrom from './Carosuael/HearFrom'
 import Demo from './page/demo'
+import Service from './Serv/Service'
 
 function Dashboard() {
   return (
@@ -21,9 +22,10 @@ function Dashboard() {
    <FrontPage/>
    <MyCarousel/>
    <Back1/>
-
+   
    <LatestHouse/>
    <CommercialDesign/>
+   {/* <Service /> */}
    <Back11/>
    <Back_4/>
    <ContractorWorkes/>

@@ -6,12 +6,12 @@ import { motion } from 'framer-motion';
 import { AccountContext } from './accountContext'
 
 const BoxContainer = styled.div`
-  width: 280px;
+  width: 380px;
   min-height: 550px;
   display: flex;
   flex-direction: column;
   border-radius: 19px;
-  background-color: #fff;
+  background-color: #D49B54;
   box-shadow: 0 0 2px rgba(15, 15, 15, 0.28);
   position: relative;
   overflow: hidden;
@@ -33,7 +33,7 @@ const BackDrop = styled(motion.div)`
   height: 550px;
   display: flex;
   flex-direction: column;
-  border-radius: 50%;
+  border-radius: 20%;
   top: -290px;
   left: -70px;
   transform: rotate(60deg);
@@ -46,22 +46,23 @@ const HeaderContainer = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-bottom:25px;
 `;
 
 const HeaderText = styled.div`
-  font-size: 30px;
+  font-size: 38px;
   font-weight: 600;
   line-height: 1.24;
-  color: #fff;
+  color: #F15A59;
   z-index: 10;
 `;
 
 const SmallText = styled.div`
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 500;
-  color: #fff;
-  margin-top: 7px;
+  color: #F15A59;
   z-index: 10;
+  margin-top:3px;
 `;
 
 const InnerContainer = styled.div`
@@ -69,6 +70,7 @@ const InnerContainer = styled.div`
   display: flex;
   flex-direction: column;
   padding: 0px 20px;
+  margin-top:30px;
 `;
 
 const backdropVariants = {
@@ -93,12 +95,14 @@ const expandingTransition = {
 }
 const AppContainer = styled.div`
 width: 100%;
-height: 40rem;
+height: 46rem;
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-background:yellow
+background:#186F65;
+background-image: url("");
+
 `;
  export default function Demo (){
 return(
