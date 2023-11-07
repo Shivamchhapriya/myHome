@@ -11,7 +11,7 @@ const BoxContainer = styled.div`
   display: flex;
   flex-direction: column;
   border-radius: 19px;
-  background-color: #D49B54;
+  background-color: #def6e5;
   box-shadow: 0 0 2px rgba(15, 15, 15, 0.28);
   position: relative;
   overflow: hidden;
@@ -37,9 +37,7 @@ const BackDrop = styled(motion.div)`
   top: -290px;
   left: -70px;
   transform: rotate(60deg);
-  background: linear-gradient(
-    58deg, rgba(243,172,18,1) 20%, rgba(241,196,15,1) 100%
-  );
+  background: #a8f6b3;
 `;
 
 const HeaderContainer = styled.div`
@@ -53,14 +51,14 @@ const HeaderText = styled.div`
   font-size: 38px;
   font-weight: 600;
   line-height: 1.24;
-  color: #F15A59;
+  color: black;
   z-index: 10;
 `;
 
 const SmallText = styled.div`
   font-size: 13px;
   font-weight: 500;
-  color: #F15A59;
+  color: black;
   z-index: 10;
   margin-top:3px;
 `;
@@ -100,7 +98,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-background:#186F65;
+background:#F2FFE9;
 background-image: url("");
 
 `;
