@@ -91,8 +91,26 @@ const expandingTransition = {
   duration: 2.3,
   stiffness: 30,
 }
+const AppContainer = styled.div`
+width: 100%;
+height: 40rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background:yellow
+`;
+ export default function Demo (){
+return(
+  <>
+  <AppContainer>
+<AccountBox></AccountBox>
+  </AppContainer>
+  </>
+)
+}
 
-export default function AccountBox(props) {
+ function AccountBox(props) {
   const [isExpanded, setExpanded] = useState(false);
   const [active, setActive] = useState('signin');
 
