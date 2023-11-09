@@ -25,7 +25,7 @@ function Dashboard() {
    
    <LatestHouse/>
    <CommercialDesign/>
-   {/* <Service /> */}
+   <Service />
    <Back11/>
    <Back_4/>
    <ContractorWorkes/>
