@@ -57,11 +57,11 @@ function ContractorWorkes() {
   return (
     <>
     <div className="row workers_div">
-        <div className="col text-start">
+        <div className="col text-start ms-5">
 <h3>Contractor & Workers</h3>
         </div>
-        <div className="col text-end">
-<button className="register_btn">Register as Contractor</button>
+        <div className="col text-end me-5">
+          <button className="register_btn p-2">Register as Contractor</button>
         </div>
     </div>
       <div className="row justify-content-center mini_card_gap m-5">
