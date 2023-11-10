@@ -56,7 +56,7 @@ function FrontPage() {
 
           <div className="maincontainer" >
             <div className="frontHeader " >
-              <h1 className="text-white fw-bold mt-5">अब घर बनेगा आसानी से</h1>
+              <h1 className="text-white fw-bold mt-5">अब घर बनेगा रॉयल हाउस मेकर्स के साथ</h1>
             </div>
             <div className="row background_color">
 
