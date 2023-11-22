@@ -3,7 +3,7 @@ ul {
     padding: 0px;
 }
 .footer-section {
-  background: #151414;
+  /* background: #151414; */
   position: relative;
 }
 .footer-cta {
@@ -69,6 +69,7 @@ ul {
 .footer-social-icon i {
   height: 40px;
   width: 40px;
+  color: #fff;
   text-align: center;
   line-height: 38px;
   border-radius: 50%;
@@ -137,7 +138,7 @@ ul {
 }
 .copyright-area{
   background: #202020;
-  padding: 25px 0;
+  /* padding: 25px 0; */
 }
 .copyright-text p {
   margin: 0;

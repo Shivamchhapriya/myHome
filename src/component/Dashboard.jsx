@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import '@fortawesome/fontawesome-svg-core/styles.css';
 import FrontPage from './page/frontPage'
 import MyCarousel from './Carosuael/First'
 import Back11 from './Background1/Back11'
@@ -13,27 +14,32 @@ import Footer from './Footer'
 import Showcasing from './Carosuael/Showcasing'
 import HearFrom from './Carosuael/HearFrom'
 import Demo from './page/demo'
-import Service from './Serv/Service'
+import Service from './Serv/Service';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 function Dashboard() {
   return (
    <>
    {/* <Demo/> */}
    <FrontPage/>
-   <MyCarousel/>
-   <Back1/>
+   {/* <MyCarousel/> */}
+   {/* <Back1/> */}
    
-   <LatestHouse/>
-   <CommercialDesign/>
-   <Service />
-   <Back11/>
-   <Back_4/>
-   <ContractorWorkes/>
-   <HowItWork/>
-   <Back_3/>
+   {/* <LatestHouse/> */}
+   {/* <CommercialDesign/> */}
+   {/* <Service /> */}
+   {/* <Back11/> */}
+   {/* <Back_4/> */}
+   {/* <ContractorWorkes/> */}
+   {/* <HowItWork/> */}
+   {/* <Back_3/> */}
    <Showcasing/>
-   <HearFrom/>
+   {/* <HearFrom/> */}
    <Footer/>
+{/* <FontAwesomeIcon icon={faFacebook} /> */}
+
+   
    </>
   )
 }
