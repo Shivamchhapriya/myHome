@@ -1,11 +1,12 @@
 import React from "react";
 import './index.css';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 function Footer() {
     return (
         <>
           <footer class="footer-section mt-2">
-                <div class="container">
+                <div>
                     <div class="footer-cta pt-5 pb-5">
                         <div class="row">
                             <div class="col-xl-4 col-md-4 mb-30">
@@ -37,7 +38,7 @@ function Footer() {
                             </div>
                         </div>
                     </div>
-                    <div class="footer-content pt-5 pb-5">
+                    <div class="footer-content pt-5 pb-3">
                         <div class="row">
                             <div class="col-xl-4 col-lg-4 mb-50">
                                 <div class="footer-widget">
@@ -48,11 +49,12 @@ function Footer() {
                                         <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
                                         elit,Lorem ipsum dolor sit amet.</p>
                                     </div>
-                                    <div class="footer-social-icon ms-3 ">
+                                    <div class="footer-social-icon ms-3 mt-5 ">
                                         <span>Follow us</span>
-                                        <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                                        <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
-                                        <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                                        <a  href="#"><FontAwesomeIcon icon={faFacebook} style={{ color: '#D1D1D1', width: '23px', height: "25px" }} /></a>
+                                        <a className="ms-2" href="#"><FontAwesomeIcon icon={faInstagram} style={{ color: '#D1D1D1', width: '23px', height: "25px" }} /></a>
+                                        <a className="ms-2" href="#"><FontAwesomeIcon icon={faLinkedin} style={{ color: '#D1D1D1', width: '23px', height: "25px"  }} /></a>
+                                        <a className="ms-2" href="#"><FontAwesomeIcon icon={faTwitter} style={{ color: '#D1D1D1', width: '23px', height: "25px"  }} /></a>
                                     </div>
                                 </div>
                             </div>
@@ -95,8 +97,8 @@ function Footer() {
                     </div>
                 </div>
                 <div class="copyright-area">
-                    <div class="container">
-                        <div class="row">
+                    <div>
+                        <div class="row" style={{padding:"10px 0px"}}>
                             <div class="col-xl-6 col-lg-6 text-center text-lg-left">
                                 <div class="copyright-text">
                                     <p>Copyright &copy; 2018, All Right Reserved <a href="https://codepen.io/anupkumar92/">Anup</a></p>
