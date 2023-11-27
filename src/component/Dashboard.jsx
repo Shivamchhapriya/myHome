@@ -30,13 +30,13 @@ function Dashboard() {
   
    {/* <LatestHouse/> */}
    {/* <CommercialDesign/> */}
-   {/* <Service /> */}
+   <Service />
    {/* <Back11/> */}
    {/* <Back_4/> */}
    {/* <ContractorWorkes/> */}
    {/* <HowItWork/> */}
    {/* <Back_3/> */}
-   {/* <Gallery/> */}
+  
    <Showcasing/>
    
    {/* <HearFrom/> */}
