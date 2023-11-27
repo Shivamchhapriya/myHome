@@ -149,6 +149,7 @@
 
 // export default FrontPage;
 
+
 import React, { useState, useEffect } from 'react';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import './index.css';
@@ -202,7 +203,7 @@ const FrontPage = () => {
 
   return (
     <div className="app">
-     <Carousel
+     {/* <Carousel
               responsive={responsive}  
               autoPlay={true}
               swipeable={true}
@@ -212,13 +213,13 @@ const FrontPage = () => {
               rtl={false}
               autoPlaySpeed={5000} 
               arrows={false} 
-              dotListClass="custom-dot-list-style"
-                // customButtonGroup={}
+              dotListClass="custom-dot-list-style" 
+                // customButtonGroup={} 
             >
         {images.map((image) => {
           return (<>
             <img
-                src={image.src}
+                src={image.src} 
                 alt={`Image ${currentIndex + 1}`}
                 style={{ width: '100%', height: '95vh', objectFit: 'cover'}}
               />
@@ -226,7 +227,28 @@ const FrontPage = () => {
           </>
           );
         })}
-      </Carousel>
+      </Carousel> */}
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/asset/Home-1.jpg" height={'730rem'} class="d-block w-100 " alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src="/asset/Home-2.jpg" height={'730rem'} class="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src="/asset/Home-18.jpg" height={'730rem'} class="d-block w-100" alt="..."/>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
     </div>
   );
 };

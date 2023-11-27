@@ -14,7 +14,7 @@ function Navbar() {
             <div class="col-sm-12">
               <nav class="navbar navbar-expand-lg navbar-light row">
                 <div class="col-sm-2">
-                  <a class="navbar-brand" href="https://www.makemyhouse.com/">
+                  <a class="navbar-brand" href="#">
                     <img className="ms-2 rounded-1" loading="lazy" alt="" src="./Nav-logo.png" width="80px" />
                   </a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

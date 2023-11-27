@@ -1,5 +1,6 @@
 import React from 'react';
 import '@fortawesome/fontawesome-svg-core/styles.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import FrontPage from './page/frontPage'
 import MyCarousel from './Carosuael/First'
 import Back11 from './Background1/Back11'
@@ -17,6 +18,7 @@ import Demo from './page/demo'
 import Service from './Serv/Service';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import Gallery from './Gallery/Gallery';
 
 function Dashboard() {
   return (
@@ -25,7 +27,7 @@ function Dashboard() {
    <FrontPage/>
    {/* <MyCarousel/> */}
    {/* <Back1/> */}
-   
+  
    {/* <LatestHouse/> */}
    {/* <CommercialDesign/> */}
    {/* <Service /> */}
@@ -34,9 +36,12 @@ function Dashboard() {
    {/* <ContractorWorkes/> */}
    {/* <HowItWork/> */}
    {/* <Back_3/> */}
+   {/* <Gallery/> */}
    <Showcasing/>
+   
    {/* <HearFrom/> */}
    <Footer/>
+   
 {/* <FontAwesomeIcon icon={faFacebook} /> */}
 
    
