@@ -2,7 +2,7 @@ import React from 'react'
 import "./Back11.css";
 function Back11() {
   return (<>
-    <div className='container-fluid'>
+    {/* <div className='container-fluid'>
        <div className="row">
             <div className="sm-12">
                 <h3 className='header_3 mt-5'>
@@ -83,7 +83,52 @@ function Back11() {
               </a>
            </div>
        </div>
-    </div>
+    </div> */}
+
+    {/* <div className='container-fluid' style={{marginLeft:"130px"}}>
+       <div className="row">
+            <div className="sm-12">
+               <h2 className=' mt-5' style={{fontWeight:"900px"}}> Spa For Women</h2>
+               <p>Refresh. Rewind. Rejuvenate.</p> 
+            </div>
+       </div>
+       <div className='row pt-5 border-3'>
+           <div className="col-sm-2">
+  <div className='rounded-1' style={{ border: '2px solid black', textAlign: 'center' }}>
+    <img
+      src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_1,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1700143548782-e49265.jpeg"
+      style={{ width: '100%', height: 'auto', display: 'block' }}
+    />
+    <h6 className="mt-1">Pain Relief Therapy</h6>
+  </div>
+            </div>
+            <div className="col-sm-2">
+  <div className='rounded-2' style={{ border: '3px solid red', textAlign: 'center' }}>
+    <img
+      src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_1,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1700143548782-e49265.jpeg"
+      style={{ width: '100%', height: 'auto', display: 'block' }}
+    />
+    <h6 className="mt-1">Pain Relief Therapy</h6>
+  </div>
+            </div><div className="col-sm-2">
+  <div className='rounded-2' style={{ border: '3px solid red', textAlign: 'center' }}>
+    <img
+      src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_1,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1700143548782-e49265.jpeg"
+      style={{ width: '100%', height: 'auto', display: 'block' }}
+    />
+    <h6 className="mt-1">Pain Relief Therapy</h6>
+  </div>
+            </div><div className="col-sm-2">
+  <div className='rounded-2' style={{ border: '3px solid red', textAlign: 'center' }}>
+    <img
+      src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_template/w_231,dpr_1,fl_progressive:steep,q_auto:low,f_auto,c_limit/images/growth/luminosity/1700143548782-e49265.jpeg"
+      style={{ width: '100%', height: 'auto', display: 'block' }}
+    />
+    <h6 className="mt-1">Pain Relief Therapy</h6>
+  </div>
+            </div>
+       </div>
+    </div> */}
     </>
   )
 }
