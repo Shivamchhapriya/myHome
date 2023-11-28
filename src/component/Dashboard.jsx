@@ -2,7 +2,8 @@ import React from 'react';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import FrontPage from './page/frontPage'
-import MyCarousel from './Carosuael/First'
+import MyCarousel from './Carosuael/First'   
+
 import Back11 from './Background1/Back11'
 import Back_4 from './Background_4/Back_4'
 import ContractorWorkes from './ContractorWorkers/ContractorWorker'
@@ -31,6 +32,9 @@ function Dashboard() {
    {/* <CommercialDesign/> */}
    <Service />
    {/* <Back11/> */}
+
+
+   
    {/* <Back_4/> */}
    {/* <ContractorWorkes/> */}
    {/* <HowItWork/> */}
