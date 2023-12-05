@@ -1,13 +1,15 @@
 import React from "react";
 import "./header.css"
 import Dashboard from "../Dashboard";
-import { Link } from "react-router-dom";
-
+import {  Link } from 'react-router-dom';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBtc, faSafari, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 
 function Navbar() {
   return (
     <>
+     
       <div class="top_header mid_header">
         <div class="">
           <div class="row">
@@ -15,10 +17,12 @@ function Navbar() {
               <nav class="navbar navbar-expand-lg navbar-light row">
                 <div class="col-sm-2">
                   <a class="navbar-brand" href="#">
+                  <Link to="/">
                     <img className="ms-2 rounded-1" loading="lazy" alt="" src="./Nav-logo.png" width="80px" />
+                    </Link>
                   </a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon text-white mb-2" style={{marginLeft:"200px"}}><FontAwesomeIcon icon={faSafari} style={{ color: '#D1D1D1',width: '50px', height: "35px" }} /></span>
                   </button>
                 </div>
                 <div class="col-sm-7 menu-pos">
@@ -197,7 +201,7 @@ function Navbar() {
                       </li>
                       <li class="nav-item dropdown me-4 errow-img menu-pos">
                         <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Other Services
+                          Services
                         </a>
                         <div class="dropdown-menu menu-5 ps-1 pe-0" aria-labelledby="navbarDropdown">
                           <div class="row">
@@ -233,107 +237,18 @@ function Navbar() {
                         </div>
                       </li>
                       <li class="nav-item dropdown me-4 errow-img menu-pos">
-                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Resources
-                        </a>
-                        <div class="dropdown-menu menu-25 menu-6 ps-1 pe-0" aria-labelledby="navbarDropdown">
-                          <div class="row">
-                            <div class="col-sm-12">
-                              <ul class="p-0">
-                                <li class="border-bottom">
-                                  <a class="dropdown-item" href="#">
-                                    <img loading="lazy" alt="" src="https://www.makemyhouse.com/assets/themelibv3assets/images/community.png" class="me-3" /> community
-                                  </a>
-                                </li>
-                                <li class="border-bottom">
-                                  <a class="dropdown-item" href="#">
-                                    <img loading="lazy" alt="" src="https://www.makemyhouse.com/assets/themelibv3assets/images/stry.png" class="me-3" /> Stories
-                                  </a>
-                                </li>
-                                <li class="border-bottom">
-                                  <a class="dropdown-item" href="#">
-                                    <img loading="lazy" alt="" src="https://www.makemyhouse.com/assets/themelibv3assets/images/blog-i.png" class="me-3" /> Blogs
-                                  </a>
-                                </li>
-                                <li class="border-bottom">
-                                  <a class="dropdown-item" href="#">
-                                    <img loading="lazy" alt="" src="https://www.makemyhouse.com/assets/themelibv3assets/images/magazin.png" class="me-3" /> magazine
-                                  </a>
-                                </li>
-                                <li class="border-bottom">
-                                  <a class="dropdown-item" href="#">
-                                    <img loading="lazy" alt="" src="https://www.makemyhouse.com/assets/themelibv3assets/images/youtube.png" class="me-3" /> Videos
-                                  </a>
-                                </li>
-                                <li>
-                                  <a class="dropdown-item" href="#">
-                                    <img loading="lazy" alt="" src="https://www.makemyhouse.com/assets/themelibv3assets/images/webinar-2.png" class="me-3" />
-                                    Webinar
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
+                        <Link to="/work">
+                          <a class="nav-link text-white" style={{fontSize:"16px"}} href="#" id="navbarDropdown"  >
+                            Work
+                          </a>
+                        </Link>
                       </li>
                       <li class="nav-item dropdown me-4 errow-img menu-pos">
-                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          More
-                        </a>
-                        <div class="dropdown-menu  menu-25 menu-7 ps-1 pe-0" aria-labelledby="navbarDropdown">
-                          <div class="row">
-                            <div class="col-sm-12">
-                              <ul class="p-0">
-                                <li class="border-bottom">
-                                  <a class="dropdown-item" href="#">
-                                    <img loading="lazy" alt="" src="https://www.makemyhouse.com/assets/themelibv3assets\images\web-images/cost.png" class="me-3" /> Cost Calculator
-                                  </a>
-                                </li>
-                                <li class="border-bottom">
-                                  <a class="dropdown-item" href="#">
-                                    <img loading="lazy" alt="" src="https://www.makemyhouse.com/assets/themelibv3assets/images/h-iw.png" class="me-3" /> How It
-                                    Works
-                                  </a>
-                                </li>
-                                <li class="border-bottom">
-                                  <a class="dropdown-item" href="#">
-                                    <img loading="lazy" alt="" src="https://www.makemyhouse.com/assets/themelibv3assets/images/r-f.png" class="me-3" /> Refer a
-                                    Friend
-                                  </a>
-                                </li>
-                                <li class="border-bottom">
-                                  <a class="dropdown-item" href="#">
-                                    <img loading="lazy" alt="" src="https://www.makemyhouse.com/assets/themelibv3assets/images/corporation.png" class="me-3" /> MMH
-                                    for Corporate
-                                  </a>
-                                </li>
-                                <li>
-                                  <a class="dropdown-item" href="#">
-                                    <img loading="lazy" alt="" src="https://www.makemyhouse.com/assets/themelibv3assets/images/professionals.png" class="me-3" />
-                                    List as Professional
-                                  </a>
-                                </li>
-                                <li>
-                                  <a class="dropdown-item" href="#">
-                                    <img loading="lazy" alt="" src="https://www.makemyhouse.com/assets/themelibv3assets/images/handshake.png" class="me-3" />
-                                    Partner With Us
-                                  </a>
-                                </li>
-                                <li>
-                                  <a class="dropdown-item" href="#">
-                                    <img loading="lazy" alt="" src="https://www.makemyhouse.com/assets/themelibv3assets/images/carrer.png" class="me-3" /> Career
-                                  </a>
-                                </li>
-                                <li>
-                                  <a class="dropdown-item" href="#">
-                                    <img loading="lazy" alt="" src="https://www.makemyhouse.com/assets/themelibv3assets/images/contact.png" class="me-3" /> Contact
-                                    Us
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
+                        <Link to="/contact">
+                          <a class="nav-link text-white" style={{fontSize:"16px"}} href="#" id="navbarDropdown"  >
+                            Contact Us
+                          </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -363,18 +278,7 @@ function Navbar() {
                     <button type="button" class="ree-quote step-form btn btn-outline-success text-white me-2" fdprocessedid="hb00hg">Consult Online Now</button>
                     <button type="button" class="btn btn-outline-warning text-white me-2" id="News_popup" fdprocessedid="6u4ysx">News</button>
                     <div class="dropdown">
-
-
                     </div>
-                    {/* <style>
-                      .user-menu li a:hover{
-                        text - decoration: none;
-                      background: #e5e5e5;
-								}
-                      .user-menu li a{
-                        padding: 2px 10px
-								}
-                    </style> */}
                     <Link to="/login">
                     <a class="btn btn-light" href="#"><img loading="lazy" alt="" src="https://www.makemyhouse.com/assets/themelibv3assets/images/Login.png" class="me-2" style={{ width: "15px" }} />Login</a>
                     </Link> 

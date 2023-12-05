@@ -165,7 +165,7 @@ import Carousel from 'react-multi-carousel';
 
 const images = [
 
-{ src: 'https://maarchitects.in/wp-content/uploads/2018/12/10-1.jpg', name: 'Rahul Sharma' },
+{ src: 'https://cloud.video.taobao.com/play/u/null/p/1/e/6/t/1/408686308080.mp4?SBizCode=xiaoer', name: 'Rahul Sharma' },
 { src: 'https://maarchitects.in/wp-content/uploads/2018/12/07-1.jpg', name: 'Manish Birla' },
 { src: 'https://maarchitects.in/wp-content/uploads/2018/12/08-1.jpg', name: 'Hemant Patel' },
 { src: 'https://maarchitects.in/wp-content/uploads/2018/12/03-1.jpg', name: 'Vivek Gupta' },
@@ -229,25 +229,23 @@ const FrontPage = () => {
         })}
       </Carousel> */}
       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item active carousel-img">
       <img src="/asset/Home-1.jpg" height={'730rem'} class="d-block w-100 " alt="..."/>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item carousel-img">
       <img src="/asset/Home-2.jpg" height={'730rem'} class="d-block w-100" alt="..."/>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item carousel-img">
       <img src="/asset/Home-18.jpg" height={'730rem'} class="d-block w-100" alt="..."/>
     </div>
+    <div class="carousel-item carousel-img" style={{width:"100%"}}>
+    <video controls="controls" autoplay="autoplay" loop="loop" preload="auto" muted="muted" disablepictureinpicture="" controlslist="nodownload" 
+      src="https://cloud.video.taobao.com/play/u/null/p/1/e/6/t/1/408686308080.mp4?SBizCode=xiaoer" data-v-f6464b98="" data-spm-anchor-id="a1zmxy.20722057.0.i0.6c4d783c4SrX2u">
+    </video>
+    </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
 </div>
     </div>
   );
