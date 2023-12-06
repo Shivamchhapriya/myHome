@@ -7,6 +7,7 @@
     background-image: url("https://maarchitects.in/wp-content/uploads/2018/02/view_040004-New.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .single_banner_caption {
     position: absolute;
@@ -114,5 +115,3 @@
 
 @media only screen and (min-width: 997px)
 {}
-
-
