@@ -19,6 +19,7 @@ import Demo from './page/demo'
 import Service from './Serv/Service';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import Contact from './Contact/Contact';
 
 function Dashboard() {
   return (
@@ -30,7 +31,7 @@ function Dashboard() {
   
    {/* <LatestHouse/> */}
    {/* <CommercialDesign/> */}
-   {/* <Service /> */}
+   <Service />
    {/* <Back11/> */}
    {/* <Back_4/> */}
    {/* <ContractorWorkes/> */}
@@ -38,9 +39,9 @@ function Dashboard() {
    {/* <Back_3/> */}
   
    <Showcasing/>
-   
    {/* <HearFrom/> */}
    {/* <Footer/> */}
+   <Contact />
    
    
 {/* <FontAwesomeIcon icon={faFacebook} /> */}

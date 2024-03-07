@@ -5,7 +5,7 @@ import 'pure-react-carousel/dist/react-carousel.es.css';
 import {  Link } from 'react-router-dom';
 
 function Service() {
-  
+
  const images = [
    {image: "/asset/Home-13.jpg "},
    {image: "/asset/Home-18.jpg"},
@@ -25,7 +25,7 @@ function Service() {
 
  useEffect(() => {
    const handleResize = () => {
-     const newSlidesToShow = window.innerWidth >= 768 ? 3 : 1;
+     const newSlidesToShow = window.innerWidth >= 768 ? 1 : 1;
      if (newSlidesToShow !== slidesToShow) {
        setSlidesToShow(newSlidesToShow);
      }
@@ -44,134 +44,94 @@ function Service() {
             <h5>Our Services</h5>
             <h3>SERVICES WE PROVIDE</h3>
        </div>
-       <div className="nearer row mx-lg-5 mx-mb-3 mx-sm-2">
-       </div>
-         <div className='mx-lg-5 ms-sm-1 mt-2'>
-   <h1 className='ms-2'>Exterior Designer:</h1>
-      <CarouselProvider
-         naturalSlideWidth={100}
-         naturalSlideHeight={70}
-         totalSlides={images.length}
-         visibleSlides={slidesToShow}
-         isPlaying 
-         isInfinite={true}
-         interval={3000}
-         >
-         <Slider>
-         {images.map((img,ind)=>
-            <Slide index={ind}>
-            <div className="m-1 px-2">
-            <Link to="/work/image">
-               <a href='#'> 
-                  <div className="our-services-box"> 
-                     <div className="our-services-box-img">
-                        <img className='image' src={img.image} alt='image' />
-                     </div> 
-                     <div className="our-services-box-text">
-                     <div className='row'> 
-                           <div className='col-sm-9'>
-                              <h5>READYMADE HOUSE DESIGN</h5>
-                              <p>PRE-DESIGNED PLANS</p>
-                           </div> 
-                           <div className='col-sm-1'>
-                              <span className='decor'> <img  src='https://www.modernhousemaker.com/newassets/img/readymade.png' /> </span>
-                           </div> 
-                     </div> 
-                     </div>  
-                  </div> 
-               </a> 
-               </Link> 
+       <div className=''>
+      <div className='row'>
+        <div className='col-xl-12 col-sm-12'>
+          
+          <div className=''>
+            <img className='design img-fluid' src="https://www.orangeinterior.in/admin/uploads/slider_image/homeinterior_U-3.png" alt="Project" />
+          </div>
+         
+          <div className="row mt-1">
+            <div className='col-lg-6 '>
+              <img className='img_set img-fluid border' src='https://www.decorpot.com/images/Interior-Designers-in-Bangalore-Decorpot-(Main).jpg' alt="Project" />
             </div>
-            </Slide> 
-            )}
-         </Slider>
-         </CarouselProvider>
-         </div>
-         <div className='mx-lg-5 ms-sm-1 mt-2'>
-   <h1 className='ms-2'>Interior Design:</h1>
-      <CarouselProvider
-         naturalSlideWidth={100}
-         naturalSlideHeight={70}
-         totalSlides={images.length}
-         visibleSlides={slidesToShow}
-         isPlaying 
-         isInfinite={true}
-         interval={3000}
-         playDirection='right'
-         >
-         <Slider>
-         {images.map((img,ind)=>
-            <Slide index={ind}>
-            <div className="m-1 px-2">
-            <Link to="/work/image">
-               <a href='#'> 
-                  <div className="our-services-box"> 
-                     <div className="our-services-box-img">
-                        <img src={img.image} alt='image' />
-                     </div> 
-                     <div className="our-services-box-text">
-                     <div className='row'> 
-                           <div className='col-sm-9'>
-                              <h5>READYMADE HOUSE DESIGN</h5>
-                              <p>PRE-DESIGNED PLANS</p>
-                           </div> 
-                           <div className='col-sm-1'>
-                              <span className='decor'> <img  src='https://www.modernhousemaker.com/newassets/img/readymade.png' /> </span>
-                           </div> 
-                     </div> 
-                     </div>  
-                  </div> 
-               </a> 
-               </Link> 
+            <div className='col-lg-6'>
+              <div className='p_1 img_set mt-2'>
+                <div className='full-width-paragraph'>
+                  <p>
+                    <strong className='react'>Client:</strong> ARG Developers<br />
+                    <strong className='react'>Site area:</strong> 1.22 Acres<br />
+                    <strong className='react'>Built up area:</strong> 31,500 sq.m.
+                  </p>
+                  <p>
+                    Argus is a high-end residential tower with unprecedented architectural character, located on the 48m wide Tonk road, major arterial corridor running through the entire city, to the east and panoramic urban sprawl to the west.<br />
+                    With the concept of creating an extrovert tower with volumetric play in architectural language, the 64 luxurious, 3 & 4 bhk apartments ranging from 3000-4000sqft. are knit up intact to produce an immensely interesting 17 story tower, responsive to wind flow and sun path. play in architecture, the building hence has mega green terraces on various levels making a mark in the city’s skyline, enjoying the picturesque surrounding views. The unique volumetric play allows the apartments to open up on all four sides and wind flow through the greens and pool spirals along the building keeping it naturally cool and ventilated, for the uniqueness and highly environmental sustainable design, the building enjoys the title of <strong>LEED Platinum</strong> rated green building.
+                  </p>
+                </div>
+              </div>
             </div>
-            </Slide> 
-            )}
-         </Slider>
-         </CarouselProvider>
-         </div>
-         <div className='mx-lg-5 ms-sm-1 mt-2'>
-   <h1 className='ms-2'>Home Decor:</h1>
-      <CarouselProvider
-         naturalSlideWidth={100}
-         naturalSlideHeight={70}
-         totalSlides={images.length}
-         visibleSlides={slidesToShow}
-         isPlaying 
-         isInfinite={true}
-         interval={4000}
-         >
-         <Slider>
-         {images.map((img,ind)=>
-            <Slide index={ind}>
-            <div className="m-1 px-2">
-            <Link to="/work/image">
-               <a href='#'> 
-                  <div className="our-services-box"> 
-                     <div className="our-services-box-img">
-                        <img src={img.image} alt='image' />
-                     </div> 
-                     <div className="our-services-box-text">
-                     <div className='row'> 
-                           <div className='col-sm-9'>
-                              <h5>READYMADE HOUSE DESIGN</h5>
-                              <p>PRE-DESIGNED PLANS</p>
-                           </div> 
-                           <div className='col-sm-1'>
-                              <span className='decor'> <img  src='https://www.modernhousemaker.com/newassets/img/readymade.png' /> </span>
-                           </div> 
-                     </div> 
-                     </div>  
-                  </div> 
-               </a> 
-               </Link> 
+            
+            <div className='col-lg-6'>
+              <div className='p_1 img_set mt-2'>
+                <p>
+                  <strong className='react'>Client:</strong> ARG Developers<br />
+                  <strong className='react'>Site area:</strong> 1.22 Acres<br />
+                  <strong className='react'>Built up area:</strong> 31,500 sq.m.
+                </p>
+                <p>
+                  Argus is a high-end residential tower with unprecedented architectural character, located on the 48m wide Tonk road, major arterial corridor running through the entire city, to the east and panoramic urban sprawl to the west.<br />
+                  With the concept of creating an extrovert tower with volumetric play in architectural language, the 64 luxurious, 3 & 4 bhk apartments ranging from 3000-4000sqft. are knit up intact to produce an immensely interesting 17 story tower, responsive to wind flow and sun path. play in architecture, the building hence has mega green terraces on various levels making a mark in the city’s skyline, enjoying the picturesque surrounding views. The unique volumetric play allows the apartments to open up on all four sides and wind flow through the greens and pool spirals along the building keeping it naturally cool and ventilated, for the uniqueness and highly environmental sustainable design, the building enjoys the title of <strong>LEED Platinum</strong> rated green building.
+                </p>
+              </div>
             </div>
-            </Slide> 
-            )}
-         </Slider>
-         </CarouselProvider>
-         </div>
+            <div className='col-lg-6'>
+              <img className='img_set img-fluid border' src='https://www.shilpakalainteriors.in/images/gallery/Home/Living/L(new-1).jpg' alt="Project" />
+            </div>
+
+            <div className='col-lg-6'>
+              <img className='img_set img-fluid border' src='https://www.decorilla.com/online-decorating/wp-content/uploads/2023/02/Interior-design-trends-2023-imagined-by-Decorilla-2-scaled.jpeg' alt="Project" />
+            </div>
+            <div className='col-lg-6'>
+              <div className='p_1 img_set mt-2'>
+                <div className='full-width-paragraph'>
+                  <p>
+                    <strong className='react'>Client:</strong> ARG Developers<br />
+                    <strong className='react'>Site area:</strong> 1.22 Acres<br />
+                    <strong className='react'>Built up area:</strong> 31,500 sq.m.
+                  </p>
+                  <p>
+                    Argus is a high-end residential tower with unprecedented architectural character, located on the 48m wide Tonk road, major arterial corridor running through the entire city, to the east and panoramic urban sprawl to the west.<br />
+                    With the concept of creating an extrovert tower with volumetric play in architectural language, the 64 luxurious, 3 & 4 bhk apartments ranging from 3000-4000sqft. are knit up intact to produce an immensely interesting 17 story tower, responsive to wind flow and sun path. play in architecture, the building hence has mega green terraces on various levels making a mark in the city’s skyline, enjoying the picturesque surrounding views. The unique volumetric play allows the apartments to open up on all four sides and wind flow through the greens and pool spirals along the building keeping it naturally cool and ventilated, for the uniqueness and highly environmental sustainable design, the building enjoys the title of <strong>LEED Platinum</strong> rated green building.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className='col-lg-6'>
+              <div className='p_1 img_set mt-2'>
+                <p>
+                  <strong className='react'>Client:</strong> ARG Developers<br />
+                  <strong className='react'>Site area:</strong> 1.22 Acres<br />
+                  <strong className='react'>Built up area:</strong> 31,500 sq.m.
+                </p>
+                <p>
+                  Argus is a high-end residential tower with unprecedented architectural character, located on the 48m wide Tonk road, major arterial corridor running through the entire city, to the east and panoramic urban sprawl to the west.<br />
+                  With the concept of creating an extrovert tower with volumetric play in architectural language, the 64 luxurious, 3 & 4 bhk apartments ranging from 3000-4000sqft. are knit up intact to produce an immensely interesting 17 story tower, responsive to wind flow and sun path. play in architecture, the building hence has mega green terraces on various levels making a mark in the city’s skyline, enjoying the picturesque surrounding views. The unique volumetric play allows the apartments to open up on all four sides and wind flow through the greens and pool spirals along the building keeping it naturally cool and ventilated, for the uniqueness and highly environmental sustainable design, the building enjoys the title of <strong>LEED Platinum</strong> rated green building.
+                </p>
+              </div>
+            </div>
+            <div className='col-lg-6'>
+              <img className='img_set img-fluid border' src='https://thestoreys.in/wp-content/uploads/2022/08/3d-rendering-modern-dining-room-living-room-with-luxury-decor-1300x698.jpg' alt="Project" />
+            </div>
+          </div>
+          
+        </div>
+      </div>
     </div>
-  )
+       
+     </div>
+   )
 }
 
 export default Service
