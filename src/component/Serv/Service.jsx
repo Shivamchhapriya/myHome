@@ -108,7 +108,8 @@ function Service() {
               </div>
             </div>
 
-            <div className='col-lg-6'>
+
+            <div className='col-lg-6 newcla'>
               <div className='p_1 img_set mt-2'>
                 <p>
                   <strong className='react'>Client:</strong> ARG Developers<br />
