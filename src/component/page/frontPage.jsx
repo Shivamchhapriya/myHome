@@ -37,9 +37,7 @@ const FrontPage = () => {
   return (
     <div style={{ position: 'relative' }}>
       <video autoPlay loop muted style={{ width: '100%', height: 'auto' }}>
-        <source src="http://localhost:3000/6.mp4" type="video/mp4" />
-        
-        
+        <source src="./99.mp4" type="video/mp4" />
       </video>
       <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>
         <h1 style={{ color: textColor }}>{contents[contentIndex].text}</h1>

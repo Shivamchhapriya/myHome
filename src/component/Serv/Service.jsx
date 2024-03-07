@@ -49,12 +49,12 @@ function Service() {
         <div className='col-xl-12 col-sm-12'>
           
           <div className=''>
-            <img className='design img-fluid' src="https://www.orangeinterior.in/admin/uploads/slider_image/homeinterior_U-3.png" alt="Project" />
+            <img className='design img-fluid' src="./1.png" alt="Project" />
           </div>
          
           <div className="row mt-1">
             <div className='col-lg-6 '>
-              <img className='img_set img-fluid border' src='https://www.decorpot.com/images/Interior-Designers-in-Bangalore-Decorpot-(Main).jpg' alt="Project" />
+              <img className='img_set img-fluid border' src='2.jpg' alt="Project" />
             </div>
             <div className='col-lg-6'>
               <div className='p_1 img_set mt-2'>
@@ -86,11 +86,11 @@ function Service() {
               </div>
             </div>
             <div className='col-lg-6'>
-              <img className='img_set img-fluid border' src='https://www.shilpakalainteriors.in/images/gallery/Home/Living/L(new-1).jpg' alt="Project" />
+              <img className='img_set img-fluid border' src='3.jpg' alt="Project" />
             </div>
 
             <div className='col-lg-6'>
-              <img className='img_set img-fluid border' src='https://www.decorilla.com/online-decorating/wp-content/uploads/2023/02/Interior-design-trends-2023-imagined-by-Decorilla-2-scaled.jpeg' alt="Project" />
+              <img className='img_set img-fluid border' src='4.jpeg' alt="Project" />
             </div>
             <div className='col-lg-6'>
               <div className='p_1 img_set mt-2'>
@@ -122,7 +122,7 @@ function Service() {
               </div>
             </div>
             <div className='col-lg-6'>
-              <img className='img_set img-fluid border' src='https://thestoreys.in/wp-content/uploads/2022/08/3d-rendering-modern-dining-room-living-room-with-luxury-decor-1300x698.jpg' alt="Project" />
+              <img className='img_set img-fluid border' src='5.jpg' alt="Project" />
             </div>
           </div>
           
