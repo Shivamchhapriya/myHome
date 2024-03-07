@@ -1,6 +1,6 @@
 
 .footer-section {
-  /* background: #151414; */
+  background: #151414;
   position: relative;
 }
 .footer-cta {
@@ -45,8 +45,8 @@
 .footer-logo img {
     max-width: 180px;
 }
-.footer-text p {
-  margin-bottom: 14px;
+.cta-text p {
+  margin-top:14px;
   font-size: 14px;
   color:#ab8282;
   line-height: 28px;

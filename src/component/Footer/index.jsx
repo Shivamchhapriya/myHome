@@ -16,6 +16,7 @@ function Footer() {
                                     <div class="cta-text">
                                         <h4>Find us</h4>
                                         <span>www.royalhousemakers.com</span>
+                                        <p>6 A Shivampuri colony, <br></br> Bholaram Ustadmarg,<br></br> Indore, 452001</p>
                                     </div>
                                 </div>
                             </div>
@@ -45,12 +46,12 @@ function Footer() {
                                 <div class="footer-widget">
                                     <div class="footer-logo ms-3">
                                         <Link to="/">
-                                        <img src="./Nav-logo.png" class="img-fluid" alt="logo"/>
+                                        <img src="./1111.png" class="img-fluid" alt="logo"/>
                                         </Link>
                                     </div>
                                     <div class="footer-text ms-3">
-                                        <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
-                                        elit,Lorem ipsum dolor sit amet.</p>
+                                        {/* <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                        elit,Lorem ipsum dolor sit amet.</p> */}
                                     </div>
                                     <div class="footer-social-icon mt-5  ">
                                         <span>Follow us</span>

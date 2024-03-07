@@ -2,29 +2,16 @@
 
 .frontHeader {
   font-family: "Noto Serif Devanagari", serif;
-  /* font-size: 50px; */
   color: #fff !important;
-  /* text-align: end; */
   font-weight: bolder;
   display: flex;
   justify-content: center;
-  /* margin-left: 8%; */
-  /* width: 119%; */
 }
-.maincontainer {
-  /* position: absolute;
-    top: 22%;
-    right: 41%; */
-}
+
 .frist-grey {
   background: #54545461;
   height: 137px;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* width: 100px; */
-  /* width: 230%;
-    left: -50%; */
-  /* position: absolute; */
+  
 }
 .background_color {
   padding: 1% 19% 0px 19%;
