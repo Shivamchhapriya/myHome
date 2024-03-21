@@ -157,64 +157,64 @@ import './First.css';
 const Showcasing = () => {
   const sliderImageUrl = [
     {
-      url: "https://www.makemyhouse.com/assets/themelibv2assets/webview/images/cp-10.webp?version=210",
-      name: "Tamil Nadu",
+      url: "./asset/Images/code-1.webp",
+      name: "Noida",
       project: "68"
     },
     {
-      url: "https://www.makemyhouse.com/assets/themelibv2assets/webview/images/cp-13.webp?version=210",
-      name: "Telangana",
+      url: "./asset/Images/code-2.webp",
+      name: "Jaipur",
       project: "78"
     },
     {
-      url: "https://www.makemyhouse.com/assets/themelibv2assets/webview/images/cp-16.webp?version=210",
-      name: "Uttarakhand",
+      url: "./asset/Images/code-3.webp",
+      name: "Ahmedabad",
       project: "199"
     },
     {
-      url: "https://www.makemyhouse.com/assets/themelibv2assets/webview/images/cp-2.webp?version=210",
+      url: "./asset/Images/code-4.webp",
       name: "Karnataka",
       project: "120"
     },
     {
-      url: "https://www.makemyhouse.com/assets/themelibv2assets/webview/images/cp-3.webp?version=210",
-      name: "Rajasthan",
+      url: "./asset/Images/code-5.webp",
+      name: "Surat",
       project: "133"
     },
     {
-      url: "https://www.makemyhouse.com/assets/themelibv2assets/webview/images/cp-15.webp?version=210",
-      name: "Haryana",
+      url: "./asset/Images/code-6.webp",
+      name: "Pune",
       project: "36"
     },
     {
-      url: "https://www.makemyhouse.com/assets/themelibv2assets/webview/images/cp-13.webp?version=210",
-      name: "Telangana",
+      url: "./asset/Images/code-7.webp",
+      name: "Chennai",
       project: "78"
     },
     
     {
-      url: "https://www.makemyhouse.com/assets/themelibv2assets/webview/images/cp-13.webp?version=210",
-      name: "Telangana",
+      url: "./asset/Images/code-8.webp",
+      name: "Kolhapur",
       project: "78"
     },
     {
-      url: "https://www.makemyhouse.com/assets/themelibv2assets/webview/images/cp-16.webp?version=210",
-      name: "Uttarakhand",
+      url: "./asset/Images/code-1.webp",
+      name: "Mumbai",
       project: "199"
     },
     {
-      url: "https://www.makemyhouse.com/assets/themelibv2assets/webview/images/cp-2.webp?version=210",
-      name: "Karnataka",
+      url: "./asset/Images/code-2.webp",
+      name: "Nagpur",
       project: "120"
     },
     {
-      url: "https://www.makemyhouse.com/assets/themelibv2assets/webview/images/cp-16.webp?version=210",
-      name: "Uttarakhand",
+      url: "./asset/Images/code-3.webp",
+      name: "Delhi",
       project: "199"
     },
     {
-      url: "https://www.makemyhouse.com/assets/themelibv2assets/webview/images/cp-2.webp?version=210",
-      name: "Karnataka",
+      url: "./asset/Images/code-4.webp",
+      name: "Gurugram",
       project: "120"
     }
   ];
@@ -234,7 +234,7 @@ const Showcasing = () => {
                             <div className="tab-content mt-3 mb-3" style={{ border: "1px solid #BFBFBF" }}>
                                 <div className="slider justify-content-center">
                                     <center className='mt-3 col-sm-12'>
-                                        <div className=''>
+                                        <div className='p-2'>
                                             <img src={image.url} alt="project" width={"100px"} />
                                             <br />
                                             <h4><b>{image.project}</b> Projects</h4>

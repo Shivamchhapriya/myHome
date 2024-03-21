@@ -55,21 +55,12 @@ function Service() {
       </div>
       <div className=''>
         <div className='p-2'>
-          <img className='design img-fluid' src="./1.png" alt="Project" />
+          <img className='design img-fluid' src="./1-1-1-1.jpg" alt="Project" />
         </div>
         { /* Floor Plan */}
         <div className="row mt-1 p-3">
           <div className="col-lg-6 d-flex justify-content-center" >
             <div id="demo" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
-              {/* <div className="carousel-indicators">
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="1" ></button>
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="2" ></button>
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="3" ></button>
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="4" ></button>
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="5" ></button>
-        </div> */}
-
               <div className="carousel-inner primary">
                 {images.map((image, index) => (
                   <div key={index} className={`images-slider carousel-item ${index === 0 ? 'active' : ''}`}>
@@ -90,9 +81,8 @@ function Service() {
             <div className='p_1 img_set mt-2'>
               <div className='full-width-paragraph'>
                 <div className='text-start'>
-                  <p className='text-black' >
+                  <p className='text-black'>
                     <h5 className='react' style={{ margin: "0px" }}>FLOOR PLAN</h5><br />
-
                   </p>
                   <p className='text-black' >
                     <strong>Floor Plan</strong>: A floorplan is a detailed visual representation of a building's layout, typically viewed above-it provides essental information about the arrangment of rooms, walls, Doors, windows and other architectual features.
@@ -204,15 +194,6 @@ function Service() {
 
           <div className="col-lg-6 d-flex justify-content-center" >
             <div id="demo3" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
-              {/* <div className="carousel-indicators">
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="1" ></button>
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="2" ></button>
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="3" ></button>
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="4" ></button>
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="5" ></button>
-        </div> */}
-
               <div className="carousel-inner primary">
                 {images2.map((image, index) => (
                   <div key={index} className={`images-slider carousel-item ${index === 0 ? 'active' : ''}`}>
@@ -390,8 +371,7 @@ function Service() {
                 <div className='text-start'>
                   <p className='text-black' >
                     <h5 className='react'>INTERIOR Design:-</h5><br />
-                    {/* <strong className='react'>Site area:</strong> 1.22 Acres<br />
-                    <strong className='react'>Built up area:</strong> 31,500 sq.m. */}
+                    
                   </p>
                   <p className='text-black'>
                     <strong>Interior</strong>: House Interior Design is the art and science of enhancing the interior a residential structure to create spaces a more of aesthetically pleasing and fuctional environment.Interior design involves the thoughtfull and selection of furniture, colour  schemes, decorations, lighting, and other elements to achieve a cohesive and harmonious living space..
@@ -588,7 +568,7 @@ function Service() {
               </div>
             </div>
           </div>
-          <div className="col-lg-6 mt-5 d-flex justify-content-center border p-1" >
+          {/* <div className="col-lg-6 mt-5 d-flex justify-content-center border p-1" >
             <iframe
               title="You Tube Video"
               src="https://www.youtube.com/embed/l4L4qBYrpyY?si=Mo_EYJcR5E7IwytE"
@@ -600,6 +580,25 @@ function Service() {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           
+          </div> */}
+          <div className="col-lg-6 d-flex justify-content-center" >
+            <div id="demo2" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
+             
+              <div className="carousel-inner primary">
+                {images1.map((image, index) => (
+                  <div key={index} className={`images-slider carousel-item ${index === 0 ? 'active' : ''}`}>
+                    <img src={image} alt={`Image ${index}`} className="cover  CoverImg border" />
+                  </div>
+                ))}
+              </div>
+
+              <button className="carousel-control-prev" type="button" data-bs-target="#demo2" data-bs-slide="prev">
+                <span className="carousel-control-prev-icon"></span>
+              </button>
+              <button className="carousel-control-next" type="button" data-bs-target="#demo2" data-bs-slide="next">
+                <span className="carousel-control-next-icon"></span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
