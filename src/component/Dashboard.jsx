@@ -10,7 +10,7 @@ import ContractorWorkes from './ContractorWorkers/ContractorWorker'
 import Back1 from './Background/Back1'
 // import HowItWork from './HowItWork/HowItWork'
 import Back_3 from './Background_3/Back_3'
-import CommercialDesign from './CommercialDesign'
+// import CommercialDesign from './CommercialDesign'
 import LatestHouse from './LatestHouse'
 // import Footer from './Footer'
 import Showcasing from './Carosuael/Showcasing'
@@ -19,7 +19,10 @@ import Demo from './page/demo'
 import Service from './Serv/Service';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+// import Contact from './Contact/Contact';
+import Footer from './Footer';
 import Contact from './Contact/Contact';
+// import YuvrajFantasySport from './yuvraj';
 
 function Dashboard() {
   return (
@@ -39,10 +42,11 @@ function Dashboard() {
    {/* <Back_3/> */}
   
    <Showcasing/>
+   <Contact />
+
    {/* <HearFrom/> */}
    {/* <Footer/> */}
-   <Contact />
-   
+   {/* <YuvrajFantasySport /> */}
    
 {/* <FontAwesomeIcon icon={faFacebook} /> */}
 

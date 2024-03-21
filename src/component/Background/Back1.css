@@ -26,9 +26,9 @@
     font-style: normal;
 }
 
-p{
+p   {
     font-weight: 400px;
-    color: #000000;
+    color: white;
     /* padding-right: 100px; */
     font-family: revert;
 }

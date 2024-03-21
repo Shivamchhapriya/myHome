@@ -20,7 +20,7 @@
   padding: 0% 13.4% 0% 12%;
 }
 .mainImage {
-  background-image: url("../../../public/asset/mainImage.png");
+  /* background-image: url("../../../public/asset/mainImage.png"); */
   height: 650px;
   width: 100% !important;
   background-repeat: no-repeat;
@@ -53,24 +53,16 @@
   width: 131px !important;
   height: 99px !important;
   flex-shrink: 0;
-  /* padding: 16px 17px !important; */
-  /* border-top-left-radius: 10px;
-border-top-right-radius: 10px; */
-  /* border: 1px solid #ED7D31 !important; */
   box-shadow: 0px 3px 3px 2px #979797;
   padding: 0px;
   content: "";
-  /* background-image: url("../../../public/asset/errow-g.png") !important; */
   background-position: bottom;
   background-repeat: no-repeat !important;
   background-size: cover;
   transition: 1s all ease;
 }
 .builder .Mui-selected {
-  /* width: 100%;
-    height: 51px; */
-  /* position: absolute; */
-  /* top: 86px; */
+  
 }
 
 .builder .MuiButtonBase-root {
@@ -81,24 +73,20 @@ border-top-right-radius: 10px; */
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  /* border-top-left-radius: 10px;
-    border-top-right-radius: 10px; */
-  /* background: #ED7D31 ; */
+  
   width: 131px !important;
   height: 99px !important;
   flex-shrink: 0;
   padding: 0px;
-  /* border: 1px solid #E9E1E1; */
+
 }
 .builder .MuiButtonBase-root:hover {
-  /* background: #ED7D31 !important;
-    color: white !important; */
+  
 }
 .builder .MuiButtonBase-root {
   min-height: 30px !important;
 }
 .builder .MuiTabs-indicator {
-  /* background: #ED7D31; */
   width: 0px !important;
   height: 0px !important;
   bottom: 0px !important;
@@ -115,36 +103,25 @@ border-top-right-radius: 10px; */
   margin-bottom: 5px;
 }
 .tab_body_2 .MuiTypography-root {
-  /* position: absolute; */
   padding: 0% 7%;
 }
 .input-Width {
-  /* width: 16% !important; */
 }
 .form-bg {
   background: #12203c8c !important;
   width: 97%;
-  /* margin: auto;
-    margin-top: 27px; */
+ 
 }
 .btn_Size {
   padding: 5% 1% 5% 1% !important;
 }
 .main_Form {
   background: #12203c8c;
-  /* width: 97%;
-    margin: auto;
-    margin-top: 27px; */
   padding: 24px;
-  /* width: 150%; */
-  /* position: absolute;
-    height: 85%; */
+  
 }
 .main_Form_card {
   background: #12203c8c;
-  /* width: 97%;
-    margin: auto;
-    margin-top: 27px; */
   padding: 2%;
   overflow: scroll;
 }
@@ -152,10 +129,10 @@ border-top-right-radius: 10px; */
   display: none;
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
+
 .main_Form_card {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
 }
 .font-weight-bolder {
   font-size: 24px;
@@ -172,7 +149,7 @@ border-top-right-radius: 10px; */
 }
 .kapil{
   bottom: -693.449px !important;
-    /* left: 329.442px; */
+    
     padding: 0px 8.3617px;
     font-size: 16.7234px;
     color: rgb(255, 255, 255);
@@ -193,14 +170,16 @@ border-top-right-radius: 10px; */
     filter: none;
 }
 
-/* === form */
-
-/* === form */
-
-/* ======= media Queary */
-
-
-
+.background-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1; 
+  z-index: -1; 
+  pointer-events: none; 
+}
 
 @media (min-width: 350px) and (max-width: 767px) {
   /* CSS styles for small screens (e.g., mobile phones) */

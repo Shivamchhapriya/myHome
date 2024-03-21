@@ -13,8 +13,8 @@
   margin-top: 8px;
 }
 .cta-text {
-  padding-top: 5px;
-  padding-left: 20px;
+  /* padding-top: 5px;
+  padding-left: 5px; */
   display: inline-block;
 }
 .cta-text h4 {
@@ -40,10 +40,10 @@
   background-position: 100% 100%;
 }
 .footer-logo {
-  margin-bottom: 20px;
+  margin-bottom: 40px !important;
 }
 .footer-logo img {
-    max-width: 180px;
+    max-width: 280px;
 }
 .cta-text p {
   margin-top:14px;
@@ -96,12 +96,13 @@
   bottom: -10px;
   height: 3px;
   width: 100px;
+  margin-left: 185px;
   background: #ff5e14;
 }
 .footer-widget ul li {
   display: inline-block;
   float: left;
-  width: 50%;
+  width: 50%; 
   margin-bottom: 12px;
 }
 .footer-widget ul li a {
@@ -147,7 +148,7 @@
 .copyright-text p {
   margin: 0;
   font-size: 14px;
-  color: #878787;
+  color: #ffff !important;
 }
 .footer-social-icon span {
   padding-left: 17px;

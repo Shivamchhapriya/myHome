@@ -26,7 +26,7 @@ function Contact() {
                 <ul className="info-details">
                     <li>
                         <i className="fas fa-phone-alt"></i>
-                        <span className='ms-1'>Mobile Number:</span> <a className='ms-5' href="tel:+ 1235 2355 98">+919893764788</a>
+                        <span className='ms-1'>Mobile Number:</span> <a className='ms-5' href="tel:+ 1235 2355 98">+919009700155</a>
                     </li>
                     <li style={{marginRight:"215px"}}>
                         <i className="fas fa-paper-plane"></i>
