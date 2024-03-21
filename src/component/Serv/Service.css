@@ -36,13 +36,6 @@
     justify-content: center;
 } 
 
-/* .our-services-box-img img:hover{
-    transition: all 0.6s ease;
-    transform: scale(1.1); 
-    transition: all 0.6s ease-in-out !important;
-}  */
-
-
 .image {
     border-image: fill 0 linear-gradient(#0003,#000) !important;
     
@@ -53,13 +46,10 @@
     color: #000000;
     font-size: 14px;
     font-family: 'Noto Sans', sans-serif;
-    /* font-weight: bold; */
-    /* letter-spacing: 0px; */  
 } 
 .our-services-box-text h5 {
     font-size: 18px;
     font-family: 'Noto Sans', sans-serif;
-    /* margin-bottom: 1px; */
     font-weight: 700;
     color: #494949;
 } 
@@ -154,13 +144,151 @@
     margin-bottom: 0px;
 }
 
+.full-width-paragraph {
+    
+}
+
 .border {
-   /* border-right: 20px solid #ED7F00 !important;
-   border-top: 20px solid #ED7F00 !important; */
+   
    border: 5px solid #ED7F00 !important;
 
   }
 
-/* Custom CSS */
+
 
  
+.bodyOn {
+    width: 100%;
+    height: 400px !important;
+    max-height: 890px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.single_banner_caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.single_banner_caption h1 {
+    color: #fff;
+    margin-left: 400px;
+    font-size: 55px;
+    font-weight: 500;
+    text-shadow: 0 4px 5px #000;
+    line-height: 1.1;
+}
+.single_banner .cityofproject {
+    color: #fff!important;
+    text-align: right!important;
+    font-size: 35px;
+    font-weight: 500;
+    text-shadow: 0 4px 5px #000;
+}
+.design{
+    border-radius: 30px solid rgb(181, 47, 123);
+} 
+
+
+.inter{
+    margin-right: -15px;
+    margin-left: -15px;
+    letter-spacing: 1px;
+}
+.containers-fluids {
+        padding-left: 30px;
+        padding-right: 30px;
+}
+.p_1 {
+    color: #505050;
+    font-size: 14px;
+}
+
+.react{
+    color: #505050;
+    font-weight: 700;
+}
+.img_set{
+    
+    padding: 36px !important;
+}
+
+
+
+.vc_row{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.vc_row:after, .vc_row:before {
+    content: " ";
+    display: table;
+}
+
+.vc_column_container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.vc_column-inner {
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+}
+.pinterest-container {
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    width: 100%;
+    list-style-type: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.pinterest-container li a img:hover{
+    transition: all 0.6s ease;
+    transform: scale(1.1); 
+    transition: all 0.6s ease-in-out !important;
+}
+
+.full-width-paragraph {
+    width: 100%;
+  box-sizing: border-box;
+  word-wrap: break-word;width: 100%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+@media only screen and (min-width: 997px)
+{}
+
+.CoverImg{
+    height:418px;
+    width: 734px;
+}
+.floorplan-container {
+    position: relative;
+}
+
+.floorplan-bg-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    background-image: url('../../../public/logo--1.png');
+    background-size: cover;
+}

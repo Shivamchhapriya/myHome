@@ -16,16 +16,16 @@ function Navbar() {
             <div class="col-sm-12">
               <nav className="navbar navbar-expand-lg navbar-light fixed-top fixed_Nav" style={{ backgroundColor: "transparent", zIndex: 2 }}>
                
-                <div className="col-sm-6 collapse navbar-collapse" id="navbarSupportedContent">
-                <div class="col-sm-2 ms-5">
+                <div className="col-sm-6  collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="col-sm-2" >
                   <a class="navbar-brand" href="#">
                     <Link to="/">
-                      <img className="ms-5 rounded-1" loading="lazy" alt="" src="./1111.png" width="310px" />
+                      <img className="ms-5 rounded-1" loading="lazy" alt="" src="./777.png" width="210px" />
                     </Link>
                   </a>
                 </div>
                   <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item dropdown me-4 errow-img menu-pos  ">
+                    <li class="nav-item dropdown me-4 errow-img menu-pos ">
                       <Link to="/work">
                         <a class="nav-link text-white ms-4" style={{ fontSize: "16px" }} href="#" id="navbarDropdown"  >
                           Home
@@ -71,13 +71,13 @@ function Navbar() {
                     </div>
                     
                     <Link to="/login">
-                      <a class="btn ms-2" href="#"><img loading="lazy" alt="" src="https://cdn2.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-whatsapp-circle-512.png" class="me-2" style={{ width: "35px" }} /></a>
+                      <a class="btn ms-5" href="#"><img loading="lazy" alt="" src="https://cdn2.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-whatsapp-circle-512.png" class="me-2" style={{ width: "35px" }} /></a>
                     </Link>
                     <div className="mt-3">
                       
                     </div>
                     <Link to="/login">
-                      <a class="btn ms-3" href="#"><img loading="lazy" alt="" src="	https://cdn-icons-png.flaticon.com/512/8983/8983815.png" class="me-2" style={{ width: "35px" }} /></a>
+                      <a class="btn ms-5" href="#"><img loading="lazy" alt="" src="	https://cdn-icons-png.flaticon.com/512/8983/8983815.png" class="me-2" style={{ width: "35px" }} /></a>
                     </Link>
                   </div>
                 </div>
