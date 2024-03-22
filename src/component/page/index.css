@@ -20,12 +20,10 @@
   padding: 0% 13.4% 0% 12%;
 }
 .mainImage {
-  /* background-image: url("../../../public/asset/mainImage.png"); */
   height: 650px;
   width: 100% !important;
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position: ; */
 }
 .builder .MuiTabs-flexContainer {
   overflow: scroll !important;

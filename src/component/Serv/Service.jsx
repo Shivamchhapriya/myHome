@@ -385,6 +385,122 @@ function Service() {
               </div>
             </div>
           </div>
+
+          {/* Video You TUbe */}
+          <div className='col-lg-6 p-4'>
+            <div className='p_1 img_set mt-2'>
+              <div className='full-width-paragraph'>
+                <div className='text-start'>
+                  <p className='text-black' >
+                    <h5 className='react' style={{ margin: "0px" }}>WALK-THROUGH</h5><br />
+
+                  </p>
+                  <p className='text-black' >
+                    <strong>Walk Through</strong>: An Interactive 3D walkthrough home tour allows  to virtually glide from room to room using technology. The walk-through video is usually the most
+                    used to visualize the Exterior and  Interior of the House and other building projects.
+                    We provide the realitic view you can explore every nook and cranny, measure dimensions, and experience the space as if you were there in pecans..
+                  </p>
+
+                  <strong className='react'>Here are the key components of a Floor Plan:</strong><br />
+                  <p className='text-black' style={{ margin: "2px" }}>
+                    <strong>*</strong>  Room layout.
+                  </p>
+                  <p className='text-black' style={{ margin: "2px" }}>
+                    <strong>*</strong>  Dimensions and Scales.
+                  </p>
+                  <p className='text-black' style={{ margin: "2px" }}>
+                    <strong>*</strong>  Traffic flow and Circulation.
+                  </p>
+                  <p className='text-black' style={{ margin: "2px" }}>
+                    <strong>*</strong>  Vastu Oriented.(Depend on clients)
+                  </p>
+                  <p className='text-black' style={{ margin: "2px" }}>
+                    <strong>*</strong>  Windows and Doors!.
+                  </p>
+                  <p className='text-black' style={{ margin: "2px" }}>
+                    <strong>*</strong>  Furniture Placement.
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-6 mt-5 d-flex justify-content-center border p-1" >
+            <iframe 
+              title="You Tube Video"
+              src="./Slider.mp4"
+              width="100%"
+              height="445"
+              style={{ borderRadius: "5px" }}
+              allowFullScreen=""
+              loading="lazy"
+              autoPlay
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          
+          </div>
+          
+
+          { /*  3D FLOOR PLAN */}
+          <div className="col-lg-6 d-flex justify-content-center" >
+            <div id="demo6" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
+
+              <div className="carousel-inner primary">
+                {images6.map((image, index) => (
+                  <div key={index} className={`images-slider carousel-item ${index === 0 ? 'active' : ''}`}>
+                    <img src={image} alt={`Image ${index}`} className="cover  CoverImg border" />
+                  </div>
+                ))}
+              </div>
+
+              <button className="carousel-control-prev" type="button" data-bs-target="#demo6" data-bs-slide="prev">
+                <span className="carousel-control-prev-icon"></span>
+              </button>
+              <button className="carousel-control-next" type="button" data-bs-target="#demo6" data-bs-slide="next">
+                <span className="carousel-control-next-icon"></span>
+              </button>
+            </div>
+          </div>
+          <div className='col-lg-6'>
+            <div className='p_1 img_set mt-2'>
+              <div className='full-width-paragraph'>
+                <div className='text-start'>
+                  <p className='text-black' >
+                    <h5 className='react' style={{ margin: "0px" }}>3D FLOORPLAN</h5><br />
+
+                  </p>
+                  <p className='text-black' >
+                    <strong>3D Floor-plan</strong>: A 3D floorplan is an image that shows the structure (wall, doors, widows) and layout. (fixtures, fittings, furniture) of a building, Property, office, or home in the three dimensions.
+                  </p>
+
+                  <strong className='react'> Here are some key points in 3D floorplans:</strong><br />
+                  <p className='text-black' style={{ margin: "2px" }}>
+                    <strong>*</strong>  Visual Representation.
+                  </p>
+                  <p className='text-black' style={{ margin: "2px" }}>
+                    <strong>*</strong>  Depth and Perspective.
+                  </p>
+                  <p className='text-black' style={{ margin: "2px" }}>
+                    <strong>*</strong>  Color and texture.
+                  </p>
+                  <p className='text-black' style={{ margin: "2px" }}>
+                    <strong>*</strong>  Design Decisions.
+                  </p>
+                  <p className='text-black' style={{ margin: "2px" }}>
+                    <strong>*</strong>  Client Presentations..
+                  </p>
+                  <p className='text-black' style={{ margin: "2px" }}>
+                    <strong>*</strong>  Realistic Renders.
+                  </p>
+                  <p className='text-black' style={{ margin: "2px" }}>
+                    <strong>*</strong>  Suggestions for Interior Design.
+                  </p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
           { /*  Landscape */}
 
           <div className='col-lg-6'>
@@ -468,138 +584,7 @@ function Service() {
               </button>
             </div>
           </div>
-
-          { /*  3D FLOOR PLAN */}
-          <div className="col-lg-6 d-flex justify-content-center" >
-            <div id="demo6" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
-
-              <div className="carousel-inner primary">
-                {images6.map((image, index) => (
-                  <div key={index} className={`images-slider carousel-item ${index === 0 ? 'active' : ''}`}>
-                    <img src={image} alt={`Image ${index}`} className="cover  CoverImg border" />
-                  </div>
-                ))}
-              </div>
-
-              <button className="carousel-control-prev" type="button" data-bs-target="#demo6" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon"></span>
-              </button>
-              <button className="carousel-control-next" type="button" data-bs-target="#demo6" data-bs-slide="next">
-                <span className="carousel-control-next-icon"></span>
-              </button>
-            </div>
-          </div>
-          <div className='col-lg-6'>
-            <div className='p_1 img_set mt-2'>
-              <div className='full-width-paragraph'>
-                <div className='text-start'>
-                  <p className='text-black' >
-                    <h5 className='react' style={{ margin: "0px" }}>3D FLOORPLAN</h5><br />
-
-                  </p>
-                  <p className='text-black' >
-                    <strong>3D Floor-plan</strong>: A 3D floorplan is an image that shows the structure (wall, doors, widows) and layout. (fixtures, fittings, furniture) of a building, Property, office, or home in the three dimensions.
-                  </p>
-
-                  <strong className='react'> Here are some key points in 3D floorplans:</strong><br />
-                  <p className='text-black' style={{ margin: "2px" }}>
-                    <strong>*</strong>  Visual Representation.
-                  </p>
-                  <p className='text-black' style={{ margin: "2px" }}>
-                    <strong>*</strong>  Depth and Perspective.
-                  </p>
-                  <p className='text-black' style={{ margin: "2px" }}>
-                    <strong>*</strong>  Color and texture.
-                  </p>
-                  <p className='text-black' style={{ margin: "2px" }}>
-                    <strong>*</strong>  Design Decisions.
-                  </p>
-                  <p className='text-black' style={{ margin: "2px" }}>
-                    <strong>*</strong>  Client Presentations..
-                  </p>
-                  <p className='text-black' style={{ margin: "2px" }}>
-                    <strong>*</strong>  Realistic Renders.
-                  </p>
-                  <p className='text-black' style={{ margin: "2px" }}>
-                    <strong>*</strong>  Suggestions for Interior Design.
-                  </p>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Video You TUbe */}
-          <div className='col-lg-6 p-4'>
-            <div className='p_1 img_set mt-2'>
-              <div className='full-width-paragraph'>
-                <div className='text-start'>
-                  <p className='text-black' >
-                    <h5 className='react' style={{ margin: "0px" }}>WALK-THROUGH</h5><br />
-
-                  </p>
-                  <p className='text-black' >
-                    <strong>Walk Through</strong>: An Interactive 3D walkthrough home tour allows  to virtually glide from room to room using technology. The walk-through video is usually the most
-                    used to visualize the Exterior and  Interior of the House and other building projects.
-                    We provide the realitic view you can explore every nook and cranny, measure dimensions, and experience the space as if you were there in pecans..
-                  </p>
-
-                  <strong className='react'>Here are the key components of a Floor Plan:</strong><br />
-                  <p className='text-black' style={{ margin: "2px" }}>
-                    <strong>*</strong>  Room layout.
-                  </p>
-                  <p className='text-black' style={{ margin: "2px" }}>
-                    <strong>*</strong>  Dimensions and Scales.
-                  </p>
-                  <p className='text-black' style={{ margin: "2px" }}>
-                    <strong>*</strong>  Traffic flow and Circulation.
-                  </p>
-                  <p className='text-black' style={{ margin: "2px" }}>
-                    <strong>*</strong>  Vastu Oriented.(Depend on clients)
-                  </p>
-                  <p className='text-black' style={{ margin: "2px" }}>
-                    <strong>*</strong>  Windows and Doors!.
-                  </p>
-                  <p className='text-black' style={{ margin: "2px" }}>
-                    <strong>*</strong>  Furniture Placement.
-                  </p>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* <div className="col-lg-6 mt-5 d-flex justify-content-center border p-1" >
-            <iframe
-              title="You Tube Video"
-              src="https://www.youtube.com/embed/l4L4qBYrpyY?si=Mo_EYJcR5E7IwytE"
-              width="100%"
-              height="445"
-              style={{ borderRadius: "5px" }}
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
           
-          </div> */}
-          <div className="col-lg-6 d-flex justify-content-center" >
-            <div id="demo2" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
-             
-              <div className="carousel-inner primary">
-                {images1.map((image, index) => (
-                  <div key={index} className={`images-slider carousel-item ${index === 0 ? 'active' : ''}`}>
-                    <img src={image} alt={`Image ${index}`} className="cover  CoverImg border" />
-                  </div>
-                ))}
-              </div>
-
-              <button className="carousel-control-prev" type="button" data-bs-target="#demo2" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon"></span>
-              </button>
-              <button className="carousel-control-next" type="button" data-bs-target="#demo2" data-bs-slide="next">
-                <span className="carousel-control-next-icon"></span>
-              </button>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -607,4 +592,4 @@ function Service() {
   )
 }
 
-export default Service
+export default Service; 
