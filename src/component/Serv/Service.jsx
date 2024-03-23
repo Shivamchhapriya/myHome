@@ -49,10 +49,10 @@ function Service() {
 
   return (
     <div className='container'>
-      <div className='sec-heading mt-2'>
+      {/* <div className='sec-heading mt-2'>
         <h5>Our Services</h5>
         <h3>SERVICES WE PROVIDE</h3>
-      </div>
+      </div> */}
       <div className=''>
         <div className='p-2'>
           <img className='design img-fluid' src="./1-1-1-1.jpg" alt="Project" />
@@ -442,7 +442,7 @@ function Service() {
           
 
           { /*  3D FLOOR PLAN */}
-          <div className="col-lg-6 d-flex justify-content-center" >
+          <div className="col-lg-6 d-flex justify-content-center mt-5" >
             <div id="demo6" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
 
               <div className="carousel-inner primary">

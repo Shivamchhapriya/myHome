@@ -27,7 +27,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static" >
+    <AppBar position="static" sx={{backgroundColor:"transparent", boxShadow:"none"}} >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <IconButton
@@ -54,7 +54,7 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            <img className="ms-5" loading="lazy" alt="" src="./777.png" width="310px" />
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
@@ -78,7 +78,7 @@ function ResponsiveAppBar() {
             anchor="left"
             open={isDrawerOpen}
             onClose={handleCloseDrawer}
-            sx={{ display: { xs: 'block', md: 'none' }, '& .MuiPaper-root': { background: '#333', color: '#fff' } }}
+            sx={{ display: { xs: 'block', md: 'none' }, '& .MuiPaper-root': { background: 'white', color: '#fff' } }}
           >
             <Box
               sx={{ width: 250 }}
@@ -93,7 +93,7 @@ function ResponsiveAppBar() {
               </Box>
               {settings.map((setting) => (
                 <MenuItem key={setting} onClick={handleCloseDrawer}>
-                  <Typography variant="body2">{setting}</Typography>
+                  <Typography sx={{color:"black"}} variant="body2">{setting}</Typography>
                 </MenuItem>
               ))}
             </Box>

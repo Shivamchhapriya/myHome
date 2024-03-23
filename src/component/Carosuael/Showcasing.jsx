@@ -169,58 +169,58 @@ const Showcasing = () => {
     {
       url: "./asset/Images/code-3.webp",
       name: "Ahmedabad",
-      project: "199"
+      project: "47"
     },
     {
       url: "./asset/Images/code-4.webp",
       name: "Karnataka",
-      project: "120"
+      project: "64"
     },
     {
       url: "./asset/Images/code-5.webp",
       name: "Surat",
-      project: "133"
+      project: "103"
     },
     {
       url: "./asset/Images/code-6.webp",
       name: "Pune",
-      project: "36"
+      project: "56"
     },
     {
       url: "./asset/Images/code-7.webp",
       name: "Chennai",
-      project: "78"
+      project: "81"
     },
     
     {
       url: "./asset/Images/code-8.webp",
       name: "Kolhapur",
-      project: "78"
+      project: "66"
     },
     {
       url: "./asset/Images/code-1.webp",
       name: "Mumbai",
-      project: "199"
+      project: "59"
     },
     {
       url: "./asset/Images/code-2.webp",
       name: "Nagpur",
-      project: "120"
+      project: "86"
     },
     {
       url: "./asset/Images/code-3.webp",
       name: "Delhi",
-      project: "199"
+      project: "92"
     },
     {
       url: "./asset/Images/code-4.webp",
       name: "Gurugram",
-      project: "120"
+      project: "43"
     }
   ];
 
   return (
-    <div className="m-5">
+    <div className="m-3">
             <center>
                 <b style={{ fontSize: "25px" }}>Showcasing Our Pan-India Home Design Projects</b>
                 <div className="create_div mb-5">
