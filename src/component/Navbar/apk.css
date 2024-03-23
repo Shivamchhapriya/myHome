@@ -98,3 +98,10 @@
     z-index: 1030 !important;
     /* background-color: black !important; */
   }
+
+  @media (max-width: 480px) {
+    .navbar-brand img {
+      max-width: 10px;
+      max-height: 34px; /* Adjust the max-width as needed */
+    }
+  }

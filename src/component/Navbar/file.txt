@@ -1,0 +1,59 @@
+{/* <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item dropdown me-4 errow-img menu-pos ">
+                      <Link to="/work">
+                        <a class="nav-link text-white ms-4" style={{ fontSize: "16px" }} href="#" id="navbarDropdown"  >
+                          Home
+                        </a>
+                      </Link>
+                    </li>
+                    <li class="nav-item dropdown me-4 errow-img menu-pos ">
+                      <Link to="/work">
+                        <a class="nav-link text-white" style={{ fontSize: "16px" }} href="#" id="navbarDropdown"  >
+                          About Us
+                        </a>
+                      </Link>
+                    </li>
+                    <li class="nav-item dropdown me-4 errow-img menu-pos  ">
+                      <Link to="/work">
+                        <a class="nav-link text-white" style={{ fontSize: "16px" }} href="#" id="navbarDropdown"  >
+                          Services
+                        </a>
+                      </Link>
+                    </li>
+
+                    <li class="nav-item dropdown me-4 errow-img menu-pos  ">
+                      <Link to="/contact">
+                        <a class="nav-link text-white" style={{ fontSize: "16px" }} href="#" id="navbarDropdown"  >
+                          Contact Us
+                        </a>
+                      </Link>
+                    </li>
+                    <li class="nav-item dropdown me-4 errow-img menu-pos  ">
+                      <Link to="/contact">
+                        <a class="nav-link text-white" style={{ fontSize: "16px" }} href="#" id="navbarDropdown"  >
+                          Payment
+                        </a>
+                      </Link>
+                    </li>
+                  </ul> */}
+
+                  
+{/* <div class="col-sm-4 text-end menu-pos">
+                  <div class="d-flex three-btn menu-pos" style={{ marginLeft: "200px" }}> 
+
+                    <div class="collapse" id="collapseExample">
+                      
+                    </div>
+                    
+                    <Link to="/login">
+                      <a class="btn ms-5" href="#"><img loading="lazy" alt="" src="https://cdn2.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-whatsapp-circle-512.png" class="me-2" style={{ width: "35px" }} /></a>
+                    </Link>
+                    <div className="mt-3">
+                      
+                    </div>
+                    <Link to="/login">
+                      <a class="btn ms-5" href="#"><img loading="lazy" alt="" src="	https://cdn-icons-png.flaticon.com/512/8983/8983815.png" class="me-2" style={{ width: "35px" }} /></a>
+                    </Link>
+                  </div>
+                </div> */}

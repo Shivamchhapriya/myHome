@@ -6,21 +6,21 @@ import { Link } from "react-router-dom";
 function Footer() {
     return (
         <>
-            <footer class="footer-section mt-5">
+            <footer class="footer-section mt-5 ">
                 <div>
-                    <div class="footer-cta pt-3 pb-3">
-                        <div class="row ms-5">
-                            <div class="col-xl-3 col-sm-12 mt-2 ">
-                                <div class="single-cta">
+                    <div class="footer-cta pt-3 pb-3 p-sm-5">
+                        <div class="row ms-md-5 ms-sm-5">
+                            <div class="col-xl-3 col-md-4 col-sm-6 mt-2">
+                                <div class="single-cta ms-sm-5">
                                     <i class="fas fa-map-marker-alt" ></i>
-                                    <div class="cta-text" style={{ marginTop: "6px", marginRight: "50px" }}>
+                                    <div class="cta-text" style={{ marginTop: "6px" }}>
                                         <h4 className="text-start" >Find us</h4>
                                         <span className="text-start">www.royalhousemakers.com</span>
                                         <p className="text-start">6 A Shivampuri colony, <br></br> Bholaram Ustadmarg,<br></br> Indore, 452001</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-sm-12 mt-3">
+                            <div class="col-xl-3 col-md-4  col-sm-6 mt-md-3 ms-sm-5 ">
                                 <div class="single-cta">
                                     <i class="fas fa-phone" ></i>
                                     <div class="cta-text" style={{ marginRight: "140px" }}>
@@ -29,8 +29,8 @@ function Footer() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-sm-12 mt-3">
-                                <div class="single-cta">
+                            <div class=" col-md-3 col-sm-12">
+                                <div class="single-cta me-sm-5" style={{marginRight:"100px"}}>
                                     <i class="far fa-envelope-open"></i>
                                     <div class="cta-text">
                                         <h4 className="text-start">Mail us</h4>
@@ -38,37 +38,32 @@ function Footer() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-sm-12">
-                                <div class="footer-social-icon mt-3 text-start">
-                                    <span>Follow us</span>
-                                    <a className="ms-3" href="#"><FontAwesomeIcon icon={faFacebook} style={{ color: '#D1D1D1', width: '23px', height: "25px" }} /></a>
-                                    <a className="ms-2" href="#"><FontAwesomeIcon icon={faInstagram} style={{ color: '#D1D1D1', width: '23px', height: "25px" }} /></a>
-                                    <a className="ms-2" href="#"><FontAwesomeIcon icon={faLinkedin} style={{ color: '#D1D1D1', width: '23px', height: "25px" }} /></a>
-                                    <a className="ms-2" href="#"><FontAwesomeIcon icon={faTwitter} style={{ color: '#D1D1D1', width: '23px', height: "25px" }} /></a>
+                            <div class="col-lg-12 col-md-12 col-sm-10 ms-md-5" >
+                                <div class="footer-social-icon mt-3 mt-lg-3 mt-md-3 text-start">
+                                    <span>Follow Us : </span>
+                                    <a className="ms-lg-3" href="#"><FontAwesomeIcon icon={faFacebook} style={{ color: '#D1D1D1', width: '25px', height: "25px" }} /></a>
+                                    <a className="ms-lg-3" href="#"><FontAwesomeIcon icon={faInstagram} style={{ color: '#D1D1D1', width: '25px', height: "25px" }} /></a>
+                                    <a className="ms-lg-3" href="#"><FontAwesomeIcon icon={faLinkedin} style={{ color: '#D1D1D1', width: '25px', height: "25px" }} /></a>
+                                    <a className="ms-lg-3" href="#"><FontAwesomeIcon icon={faTwitter} style={{ color: '#D1D1D1', width: '25px', height: "25px" }} /></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="footer-content pt-5 pb-3">
+                    <div class="footer-content">
                         <div class="row">
-                            <div class="col-xl-4 col-lg-4 mb-50">
+                            <div class="col-xl-4 col-lg-4">
                                 <div class="footer-widget">
-                                    <div class="footer-logo ms-3">
+                                    <div class="footer-logo ">
                                         <Link to="/">
                                             <img src="./777.png" class="img-fluid" alt="logo" />
                                         </Link>
                                     </div>
-                                    <div class="footer-text ms-3">
-                                        {/* <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
-                                        elit,Lorem ipsum dolor sit amet.</p> */}
-                                    </div>
-
                                 </div>
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-30">
                                 <div class="footer-widget">
-                                    <div class="footer-widget-heading ms-4 mt-4">
-                                        <h3>Useful Links</h3>
+                                    <div class="footer-widget-heading ms-1 mt-4">
+                                        <h3 style={{marginLeft:"20px"}}>Useful Links</h3>
                                     </div>
                                     <ul className="color_footer">
                                         <Link to="/">
@@ -114,7 +109,7 @@ function Footer() {
                         <div class="row" style={{ padding: "10px 0px" }}>
                             <div class="col-xl-12 col-lg-12 text-center text-lg-left">
                                 <div class="copyright-text">
-                                    <p>Copyright &copy; 2024, All Right Reserved <a href="#">Anup</a></p>
+                                    <p>Copyright &copy; 2024, All Right Reserved <a href="#">Royal House Makers</a></p>
                                 </div>
                             </div>
                         </div>

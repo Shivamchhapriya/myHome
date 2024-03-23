@@ -174,7 +174,7 @@
   .my-row.my-header {
     padding: 1.5em 2.5em;
     border-bottom: 1px solid #ccc;
-    /* background: url(https://images2.imgbox.com/a5/2e/m3lRbCCA_o.jpg) left -80px; */
+    
     color: #fff;
   }
   .my-row.my-body {
@@ -348,10 +348,10 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image:url("https://r4.wallpaperflare.com/wallpaper/850/684/35/interior-design-style-design-home-wallpaper-eb965cdde391ffb94514bbf9ad5cec40.jpg");
+    background:url("../../../public/99.mp4");
     background-repeat: no-repeat;
     background-size: 100%;
-    filter: blur(3px);
+    filter: blur(1px);
     
     z-index: -2;
   }
