@@ -49,11 +49,11 @@ function Service() {
 
   return (
     <div className='container'>
-      {/* <div className='sec-heading mt-2'>
-        <h5>Our Services</h5>
-        <h3>SERVICES WE PROVIDE</h3>
-      </div> */}
-      <div className=''>
+      <div className='sec-heading mt-2'>
+        <h5>About Us</h5>
+        
+      </div>
+      <div className='mt-4'>
         <div className='p-2'>
           <img className='design img-fluid' src="./1-1-1-1.jpg" alt="Project" />
         </div>
@@ -346,7 +346,7 @@ function Service() {
           </div>
           { /*  Interior Design */}
 
-          <div className="col-lg-6 d-flex justify-content-center" >
+          {/* <div className="col-lg-6 d-flex justify-content-center" >
             <div id="demo1" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
 
               <div className="carousel-inner primary">
@@ -384,9 +384,24 @@ function Service() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Video You TUbe */}
+          
+          <div className="col-lg-6 mt-5 d-flex justify-content-center border p-1" >
+            <iframe 
+              title="You Tube Video"
+              src="./Slider.mp4"
+              width="100%"
+              height="445"
+              style={{ borderRadius: "5px" }}
+              allowFullScreen=""
+              loading="lazy"
+              autoPlay
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          
+          </div>
           <div className='col-lg-6 p-4'>
             <div className='p_1 img_set mt-2'>
               <div className='full-width-paragraph'>
@@ -425,42 +440,9 @@ function Service() {
               </div>
             </div>
           </div>
-          <div className="col-lg-6 mt-5 d-flex justify-content-center border p-1" >
-            <iframe 
-              title="You Tube Video"
-              src="./Slider.mp4"
-              width="100%"
-              height="445"
-              style={{ borderRadius: "5px" }}
-              allowFullScreen=""
-              loading="lazy"
-              autoPlay
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-          
-          </div>
-          
 
           { /*  3D FLOOR PLAN */}
-          <div className="col-lg-6 d-flex justify-content-center mt-5" >
-            <div id="demo6" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
-
-              <div className="carousel-inner primary">
-                {images6.map((image, index) => (
-                  <div key={index} className={`images-slider carousel-item ${index === 0 ? 'active' : ''}`}>
-                    <img src={image} alt={`Image ${index}`} className="cover  CoverImg border" />
-                  </div>
-                ))}
-              </div>
-
-              <button className="carousel-control-prev" type="button" data-bs-target="#demo6" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon"></span>
-              </button>
-              <button className="carousel-control-next" type="button" data-bs-target="#demo6" data-bs-slide="next">
-                <span className="carousel-control-next-icon"></span>
-              </button>
-            </div>
-          </div>
+          
           <div className='col-lg-6'>
             <div className='p_1 img_set mt-2'>
               <div className='full-width-paragraph'>
@@ -500,9 +482,48 @@ function Service() {
               </div>
             </div>
           </div>
+          <div className="col-lg-6 d-flex justify-content-center mt-5" >
+            <div id="demo6" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
 
+              <div className="carousel-inner primary">
+                {images6.map((image, index) => (
+                  <div key={index} className={`images-slider carousel-item ${index === 0 ? 'active' : ''}`}>
+                    <img src={image} alt={`Image ${index}`} className="cover  CoverImg border" />
+                  </div>
+                ))}
+              </div>
+
+              <button className="carousel-control-prev" type="button" data-bs-target="#demo6" data-bs-slide="prev">
+                <span className="carousel-control-prev-icon"></span>
+              </button>
+              <button className="carousel-control-next" type="button" data-bs-target="#demo6" data-bs-slide="next">
+                <span className="carousel-control-next-icon"></span>
+              </button>
+            </div>
+          </div>
           { /*  Landscape */}
 
+          
+          <div className="col-lg-6 d-flex justify-content-center" >
+            <div id="demo5" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
+
+
+              <div className="carousel-inner primary">
+                {images5.map((image, index) => (
+                  <div key={index} className={`images-slider carousel-item ${index === 0 ? 'active' : ''}`}>
+                    <img src={image} alt={`Image ${index}`} className="cover  CoverImg border" />
+                  </div>
+                ))}
+              </div>
+
+              <button className="carousel-control-prev" type="button" data-bs-target="#demo5" data-bs-slide="prev">
+                <span className="carousel-control-prev-icon"></span>
+              </button>
+              <button className="carousel-control-next" type="button" data-bs-target="#demo5" data-bs-slide="next">
+                <span className="carousel-control-next-icon"></span>
+              </button>
+            </div>
+          </div>
           <div className='col-lg-6'>
             <div className='p_1 img_set mt-2'>
               <div className='full-width-paragraph'>
@@ -564,27 +585,6 @@ function Service() {
               </div>
             </div>
           </div>
-          <div className="col-lg-6 d-flex justify-content-center" >
-            <div id="demo5" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
-
-
-              <div className="carousel-inner primary">
-                {images5.map((image, index) => (
-                  <div key={index} className={`images-slider carousel-item ${index === 0 ? 'active' : ''}`}>
-                    <img src={image} alt={`Image ${index}`} className="cover  CoverImg border" />
-                  </div>
-                ))}
-              </div>
-
-              <button className="carousel-control-prev" type="button" data-bs-target="#demo5" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon"></span>
-              </button>
-              <button className="carousel-control-next" type="button" data-bs-target="#demo5" data-bs-slide="next">
-                <span className="carousel-control-next-icon"></span>
-              </button>
-            </div>
-          </div>
-          
         </div>
       </div>
     </div>

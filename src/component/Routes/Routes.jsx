@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from '../Navbar/Navbar';
 import Dashboard from '../Dashboard';
 import Demo from '../accountBox';
 import Service from '../Serv/Service';
@@ -12,13 +11,14 @@ function AllRoutes() {
   return (
     <>
     <Router>
-    <Navbar/>
+    
     <Routes>
 					<Route path="/" element={<Dashboard />} />
+					<Route path="/home" element={<Dashboard />} />
+          <Route path='/about us' element={<Service/>} />
 					<Route path="/login" element={<Demo />} />
-          <Route path='work' element={<Service/>} />
-          <Route path='contact' element={<Contact/>} />
-          <Route path='work/image' element={<HowItWork/>} />
+          <Route path='contact us' element={<Contact/>} />
+          {/* <Route path='/whatsapp' element={<HowItWork/>} /> */}
 				</Routes>
         <Footer/>
     </Router>

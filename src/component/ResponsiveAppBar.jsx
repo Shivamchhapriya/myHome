@@ -12,8 +12,11 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import Drawer from '@mui/material/Drawer';
 
-const pages = ['Products', 'Pricing', 'Blog'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+import "./Navbar/apk.css";
+import { CirclesWithBar } from "react-loader-spinner";
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+
+const pages = ['Home', 'About US', 'Contact Us', 'WhatsApp', 'Login'];
 
 function ResponsiveAppBar() {
   const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
@@ -27,7 +30,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static" sx={{backgroundColor:"transparent", boxShadow:"none"}} >
+    <AppBar position="static" sx={{ backgroundColor: "transparent", boxShadow: "none" }} >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <IconButton
@@ -54,18 +57,18 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            <img className="ms-5" loading="lazy" alt="" src="./777.png" width="310px" />
+            <img className="me-lg-5 ms-sm-5 image-size" loading="lazy" alt="" src="./777.png" width="310px" />
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
-              <Button
-                key={page}
-                sx={{ mx: 1, color: 'inherit' }}
-              >
+              page == "WhatsApp"? <Button key={page} sx={{ mx: 1, color: 'inherit' }} component={Link} to={'https://wa.link/pfwjp2'}>
+                {page}
+              </Button>: 
+              <Button key={page} sx={{ mx: 1, color: 'inherit' }} component={Link} to={'/' + page.toLowerCase()}>
                 {page}
               </Button>
-            ))}
+            ))} 
           </Box>
 
           <Tooltip title="Open settings">
@@ -88,14 +91,17 @@ function ResponsiveAppBar() {
             >
               <Box sx={{ display: 'flex', justifyContent: 'flex-end', p: 1 }}>
                 <IconButton>
-                  <Avatar alt="User" src="/static/images/avatar/2.jpg" />
+                  <h1>X</h1>
                 </IconButton>
               </Box>
-              {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseDrawer}>
-                  <Typography sx={{color:"black"}} variant="body2">{setting}</Typography>
-                </MenuItem>
-              ))}
+              {pages.map((page) => (
+              page == "WhatsApp"? <Button key={page} sx={{ mx: 1, color: 'inherit' }} component={Link} to={'https://wa.link/pfwjp2'}>
+                {page}
+              </Button>: 
+              <Button  key={page} sx={{ display:"flex", mx: 1,justifyContent: 'flex-start', color: 'inherit' }} component={Link} to={'/' + page.toLowerCase()}>
+                {page}
+              </Button>
+            ))}
             </Box>
           </Drawer>
         </Toolbar>

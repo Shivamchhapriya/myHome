@@ -95,13 +95,23 @@
     top: 0px !important;
     right: 0px !important;
     left: 0px !important;
+    bottom: 620px !important;
     z-index: 1030 !important;
     /* background-color: black !important; */
   }
 
   @media (max-width: 480px) {
-    .navbar-brand img {
-      max-width: 10px;
-      max-height: 34px; /* Adjust the max-width as needed */
+    
+    .fixed_Nav{
+      position:absolute !important;
+      top: -90px !important;
+      right: 0px !important;
+      left: 0px !important;
+      bottom: 1220px !important;
+      /* background-color: black !important; */
     }
+    /* .image-size {
+      width: 650px;
+      height: 34px;
+    } */
   }
