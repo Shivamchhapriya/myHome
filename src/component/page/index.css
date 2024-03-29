@@ -1,4 +1,17 @@
 /* / front Page */
+.VideoHeader{
+  font-size: 25px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.VideoPara{
+  font-size: 12px;
+}
+
+.VideoContent {
+ 
+}
 
 .frontHeader {
   font-family: "Noto Serif Devanagari", serif;

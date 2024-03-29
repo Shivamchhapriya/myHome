@@ -1,5 +1,6 @@
 import React from "react";
 import "./apk.css";
+
 import Dashboard from "../Dashboard";
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -20,14 +21,10 @@ function Navbar() {
                 <div className="col-sm-6 collapse navbar-collapse" id="navbarSupportedContent">
                 <div class="col-sm-2">
                   <a class="navbar-brand" href="#">
-                    <Link to="/">
-                      <img className="ms-5 rounded-1 " loading="lazy" alt="" src="./1111.png"  />
-                    </Link>
+                    
                   </a>
                 </div>
-                           
                 </div>
-                
               </nav>
             </div>  
           </div>

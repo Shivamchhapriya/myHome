@@ -23,6 +23,7 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import Footer from './Footer';
 import Contact from './Contact/Contact';
 import ResponsiveAppBar from './ResponsiveAppBar';
+import Navbar from './Navbar/Navbar';
 // import YuvrajFantasySport from './yuvraj';
 
 function Dashboard() {
@@ -30,6 +31,7 @@ function Dashboard() {
    <>
    {/* <Demo/> */}
    {/* <ResponsiveAppBar/> */}
+   <Navbar/>
    <FrontPage/>
    {/* <MyCarousel/> */}
    {/* <Back1/> */}
